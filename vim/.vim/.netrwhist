@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/scagle'
+let g:netrw_dirhist_2='/Users'
+let g:netrw_dirhist_3='/'
+let g:netrw_dirhist_4='/Users/scagle/Desktop'
+let g:netrw_dirhist_5='/Applications/SizeUp.app/Contents/Frameworks/ShortcutRecorder.framework'
+let g:netrw_dirhist_6='/Users/scagle'
+let g:netrw_dirhist_7='/Users/scagle/.vim'
+let g:netrw_dirhist_8='/Users/scagle'
+let g:netrw_dirhist_9='/Users/scagle/Desktop/test'
