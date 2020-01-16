@@ -1,0 +1,76 @@
+= Internet Laws/Regulations (GDPR / EU) = 
+...(showed up late to class and missed some stuff)
+
+    * In the Real World
+        * _*Generally enforced based on physical location*_
+        * Minimum drinking age
+            * In Italy the legal drinking age is 14
+                * However they don't have drunk 15 years olds passed out in the streets
+        * Traffic Law
+            * The Autobahn in Germany has no speed limit
+                * However they have respect and low crash rates on the autobahn
+        * Gambling laws
+        * Environmental regulations
+        * Gun laws
+        * Rights and freedoms
+    * The Internet is different
+        * Servers are often located in different countries or regions than website visitors
+        * We might not even know where the server is located, or where an Internet company is registered
+        * We can generally explore the web under protection of anonymity
+        * We can spoof our IP addresses to look like we're physically in another place
+    * US Internet Laws
+        * some laws that we don't really have to know...
+        * Way too many to explore
+        * California has way more than any state
+        * 1992 AOL ISP came along
+        * Telecommunications act of 1996
+        * US stopped passing laws in around 2005
+        * A lot of tech companies were probably lobbying for politicians to support certain corporate stuff
+        * Lots of lawmakers didn't really know what they were doing
+        * Net Neutrality
+            * We had it... Then not... Then did it again... Now we don't
+            * A few states implemented their own Network Neutrality laws, but its all highly debatable ...
+            * 
+    * Things are starting to change
+        * Stop Online Piracy Act and Protect Intellectual Property Act - SOPA & PIPA
+            * These laws were never passed in the US
+            * But they would have changed the way copyrights would have been protected online.
+            * It wouldn't have been good for big tech companies and activities like torrenting or posting 
+              Copyright content online would have been punishable by law
+    * What is the European Union?
+        * EU - General Data Protection Regulation - GDPR (2018)
+            * Puts regulations on companies and organizations holding the personal data of any EU citizen
+            * Applies regardless of the company/organization's location
+            * All EU citizens must be able to control all of their data, and includes the right to be forgotten
+            * Also known as the "EU Cookie Law"
+            * Fines up to 20 million euros will be issued for non-compliance
+        * EU - GAFA (since 2014)
+            * Stands for Google, Amazon, Facebook, Apple
+            * Where the US traditionally seeks to protect their largest companies, the EU and other regions 
+              take a more neutral stance on these types of companies
+            * Involves tax issues, privacy violations and a general concern about EU data being held in the US
+            * Currently the EU has more Internet users than the US (433 million vs 242 million)
+    * How are US Companies Reacting?
+        * A few US companies are simply blocking some EU users from their services
+        * But, that isn't really practical for most companies... What, is Google just gonna block 433 million users?
+        * And, the EU includes 28 countries. Blocking them all would be devastating to these companies
+        * Some companies are just paying the hefty fines. But, that can't last forever
+        * Spain banned twitch on a piracy
+    * EU Internet Laws
+        * Article 11 (2018)
+            * Also called "The link tax" - a bit of a misnomer
+            * Requires Search engines and other sites to pay creators for snippets of news content
+            * But there's some confusion about what counts as a snippet
+        * EU - Article 13 (2019)
+            * Also called "The Meme Ban"
+            * Says that content platforms will be responsible for all copyright violating content posted by users
+            * Nobody's really sure how it will all play out, once the law goes into effect next year - 
+              and, each country can interpret it how they want
+    * Other International internet laws
+        * Australia passed ban on torrent sites and browser streaming
+        * Canada 2017 targeted subscription sites that host tons of pirated content
+        * Denmark (2018) going after unlicensed gambling sites
+        * France (2019) establishing a national blacklist of sites that stream pirated content
+        * Germany (2018) requiring ISP's to block some streaming sites
+        * Ireland (2018) blocking 8 major websites that stream pirated c
+        * ...

@@ -1,0 +1,60 @@
+= Review =
+    * Stuff 
+= The Digital Divide =
+    * Evaluating and controlling trends in technology
+    * Information, Knowledge and judgment
+        * Should we just trust expert information or wisdom of the crowd" judgement when we see it?
+        * The Web is filled with false information (medical treatment, HIstorical refernece, financial dvice, political information
+        * Search engines generally help us find content - but web sites are ranked by popularity, not by expert evaluation
+    * How does google show you results
+        * Popularity contest
+        * Advertisements
+        * Things you've looked up in the past
+    * Wikipedia
+        *  Written by volunteers, so some posts are biased or inaccurate
+        * Anyone can contribute, but most choose not to
+        * Those that do write are generally not educated in the field, but consider themselves experts, of some sort
+        * References don't always checkout
+    * "Wisdom of the Crowd"
+        * Problems with unreliable information are not new
+        * the web seems to magnify those problems
+        * SEO algorithms dont take truth into consideration
+        * Site operators are respponsible for evaluating information submitted on their sites
+            *  But this costs time and money and seems to be becoming lelss important... 
+              (generally, our society has held that the more information we have online, the better)
+    == Vulnerable Viewers ==
+        * Who is a vulnerable viewer online?
+            * Children - should be protected from certain content
+            * Old People - the targets of many scam attempts
+            * Less educated individuals - we're not speaking to overall education level, but knowledge about a specific topic
+            * Anyone who will misinterpret information atleast one time (so in a sense, everyone is vulnerable)
+        * Computers and commmunity
+            * the WWW brings folks together from everywhwer
+            * Email and the WWW provide quick and cheap ways to stay in contact
+            * Social networking now allows deep insight into personal lives
+            * Our communities have become somewhat gloablized
+    * So what does this all mean?
+        * It means the world is getting smaller
+    == * Digitial divide : ==
+        * Used to refer to the separation of those who had access to tech and didnt
+        * Now it speaks to the gap between those who have access to tech and the knowldge of how to interpret information and theose who dont
+            * Access and knowledge speak to:
+                * The know-how to use any technology
+                * the ability (phyiscal or otherwise) to use that technology
+                * A basic understanding of how to protect oneself online
+                * An ability to indentify content that is not trustworthy
+        * Your textbook makes a great distinction with this:
+            * Well there seems to be a :Lamborghini Divide" in the US - I don't have one, and others do
+            * This divide really isn't the same as the Digital Divide:
+                * Owning a nice car doesn't give someone an advantage over others in the same way that access to the WWW does (there are sevices that replace cars)
+                    * The WWW gives us access to education, access to make informed decisions, access to communication, or to oversee our information
+                    * If we didn''t have access to the internet, what service would replace those things?
+        * Image Manipulation and the Digital Divide
+            * We can easily see an influence on the digital divide when we look closely at image manipulation as a medium
+                * Regarding:
+                    * Movies and videos with incredibl special effects
+                * But people use this for deception and fraud:
+                    * This sometimes happens without malicious intentions:
+                        * Sometimes the diff between entertainment and deception isn't obvious
+            * Lets take a look at soome examples
+                * (pictures in lecture that shows deception)

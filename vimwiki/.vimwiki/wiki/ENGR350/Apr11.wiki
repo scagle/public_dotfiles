@@ -1,0 +1,60 @@
+= Review =
+    * 3 types of failures
+        * individual failures
+        * system failures
+        * safety-critical failures
+    * How do we avoid those things?
+        * risk assessment
+            * alpha testing
+= Outsourcing, offshoring, onshoring =
+    * Fears of Technology
+        * The intro of comps in the workplace generated many fears
+            * Mass unemployment due to increased efficiency
+            * The need for increased skill and trainig widens the earning gap, leaving the unskilled few choices
+        * Newer trends still generates fears
+            * Offshoring of jobs will lead to mass domestic unemployment
+            * Employers use of technology to monitor their employees
+            * ........?
+    * Outsourcing:
+        * When one company pays another company to do stuff/make stuff instead of doing those tasks itself
+        * The US Outsourced 12% of all technology jobs in 2017
+        * in 2007, 54% of tech CEO's questioned openly admitted to outsourcing a major part of their business
+            * Now, 38% admit to it
+        * Examples of Outsourcing
+            * General Motors (us company) can outsource production of a car part to a German company
+                * That German company can then outsource production of that part's components to another German company (those companaies manage their own internal business practices)
+            * A California-based software company can outsource the manufacturing of computer components to a factory in China
+                * That China-based comp oversees the hiring of its own employees in order to fulfill the order from California. The California company does not hire recruit or manage anything at the factory
+            * Moral: *Outsourcing doesn't have to be overseas, but it certainly can be.*
+    * Offshoring - The practice of moving self-managed business processes or services to another country, or employing an intermediary that you manage
+        * In 2003, the US offshored 3% of all tec jobs
+        * By 2015, .......... it went up
+        * In general offshoring is getting more popular
+        * Examples
+            * General Motors (a US company) opens a factory in China and manages internal production of a car part at that location. They oversee hiring, management and daily operationsGeneral Motors (a US company) opens a factory in China and manages internal production of a car part at that location. They oversee hiring, management and daily operationsGeneral Motors (a US company) opens a factory in China and manages internal production of a car part at that location. They oversee hiring, management and daily operationsGeneral Motors (a US company) opens a factory in China and manages internal production of a car part at that location. They oversee hiring, management and daily operations.
+                * In this case, the American Company still runs all production and business practices, and continues to operate as they would in the US
+            * Norwegian Cruise Lines
+                * Abuses the crap of of avoiding regulation by going between Panama and Miami
+        * Moral: *Offshoring needs to happen in a different country*
+        * Benefits:
+            * Reduced cost to company (but, many companies don't invest cost savings back into their business or society... they pad thier pockets)
+            * Ability to avoid one country's technical, ethical, or manufacturing regulations, while continuing .........?
+            * ......?
+            * ......?
+        * Problems and Side Effects
+            * Companies that do this may eventually have to answer to social standards
+            * increased domestic unemployment rate (at least, initially)
+            * Foreign workers may be trained to the same standards as domestic workers, but its hard to tell, until they're hired
+            * Increased demands for cheap, high-skilled workers can force domestic salaries to drop, causing future business problems
+    * Onshoring
+        * When a foreign company employs workers in a domestic location
+            * The US onshored 5% of foreign technology jobs in 2005
+            * That number has been slowly rising, to 7% in 2015
+            * Moral: *Evidence shows we're okay with Onsharing*
+
+= Random GDBR Stuff =
+    * Electronic Communications Privacy Act (ECPA):
+        * Prohibits interception of email, or reading stored email, without a court order
+        * Makes an exception for systems that a company owns, such as computers, cell phones, pagers, or other devices
+        * Courts usually rule on the side of employers when they collect information from devices they own
+        * So, if they own the device, they own some of your data, too

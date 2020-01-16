@@ -1,0 +1,23 @@
+* We do get 7000 dollars as a class for funding that is not guaranteed, but probably 
+    * If we need something by june, we should do it before then, because funding doesn't carry over into next semester
+    
+* Our Idea Critiques
+    * Turret Robot
+        * We need to make sure we know where our turret is facing at any given point
+        * 3D print or not?
+    * Mesh Network Seat Detectors
+        * It becomes interesting when you have multiple chairs forwarding information
+        * We should look into using a strain/flex sensor
+* Tips
+    * We need a level of sophistication/complexity of computing that we would expect as a Computer Engineer
+        * We don't want to press a button and start a motor, we want something more than that.
+    * FPGA's are always an additional layer of complexity that is welcome into a project
+    * Human Interaction is a big thing in robotics
+        * Children/Special-needs interactions
+    * Robots have to have a frame of reference as to where it is
+    * Underwater Bots
+        * Extremely difficult to water proof a robotic platform
+        * Communication underwater is difficult
+        * Welding/Tubing/Plexiglass required
+    * Make sure we can work on these things without too much location requirements
+        * Drones can't fly on campus, you have to meet somewhere, very difficult to work with

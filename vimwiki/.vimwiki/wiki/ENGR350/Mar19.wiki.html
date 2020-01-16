@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>~/.vimwiki/wiki/ENGR350/Mar19.wiki.html</title>
+<meta name="Generator" content="Vim/8.0">
+<meta name="plugin-version" content="vim7.4_v2">
+<meta name="syntax" content="vimwiki">
+<meta name="settings" content="number_lines,use_css,pre_wrap,no_foldcolumn,expand_tabs,line_ids,prevent_copy=">
+<meta name="colorscheme" content="default">
+<style type="text/css">
+<!--
+pre { white-space: pre-wrap; font-family: monospace; color: #ffffff; background-color: #000000; }
+body { font-family: monospace; color: #ffffff; background-color: #000000; }
+* { font-size: 1em; }
+.Identifier { color: #00ffff; font-weight: bold; }
+.VimwikiBoldItalic { font-weight: bold; }
+.LineNr { color: #ffff00; }
+.VimwikiBold { font-weight: bold; }
+.Title { color: #ffd7ff; }
+-->
+</style>
+
+<script type='text/javascript'>
+<!--
+
+/* function to open any folds containing a jumped-to line before jumping to it */
+function JumpToLine()
+{
+  var lineNum;
+  lineNum = window.location.hash;
+  lineNum = lineNum.substr(1); /* strip off '#' */
+
+  if (lineNum.indexOf('L') == -1) {
+    lineNum = 'L'+lineNum;
+  }
+  lineElem = document.getElementById(lineNum);
+  /* Always jump to new location even if the line was hidden inside a fold, or
+   * we corrected the raw number to a line ID.
+   */
+  if (lineElem) {
+    lineElem.scrollIntoView(true);
+  }
+  return true;
+}
+if ('onhashchange' in window) {
+  window.onhashchange = JumpToLine;
+}
+
+-->
+</script>
+</head>
+<body onload='JumpToLine();'>
+<pre id='vimCodeElement'>
+<span id="L1" class="LineNr"> 1 </span>=<span class="Title"> Block Chain </span>=
+<span id="L2" class="LineNr"> 2 </span><span class="Identifier">    * </span>Something that not a lot of people know how it works
+<span id="L3" class="LineNr"> 3 </span><span class="Identifier">    * </span>Bitcoin is the first major block chain
+<span id="L4" class="LineNr"> 4 </span><span class="Identifier">    - </span>Background
+<span id="L5" class="LineNr"> 5 </span><span class="Identifier">        * </span>Bitcoin came about after the recession around 2008
+<span id="L6" class="LineNr"> 6 </span><span class="Identifier">        * </span>Databases used to only exist in one place
+<span id="L7" class="LineNr"> 7 </span><span class="Identifier">            * </span>People/Person who invented bitcoin thought that was dumb
+<span id="L8" class="LineNr"> 8 </span><span class="Identifier">            * </span>They wanted distributed databases
+<span id="L9" class="LineNr"> 9 </span><span class="Identifier">    - </span>Description
+<span id="L10" class="LineNr">10 </span><span class="Identifier">        * </span>Block Chain is just a distributed ledger system
+<span id="L11" class="LineNr">11 </span><span class="Identifier">        * </span>We don't know who the bitcoin creators were, but they built a damn good system
+<span id="L12" class="LineNr">12 </span><span class="Identifier">        * </span>Bitcoin hasn't been compromised ONCE
+<span id="L13" class="LineNr">13 </span><span class="Identifier">            * </span>Exchanges have been compromised but not bitcoin itself
+<span id="L14" class="LineNr">14 </span><span class="Identifier">        - </span><span class="VimwikiBold">Node</span>
+<span id="L15" class="LineNr">15 </span><span class="Identifier">            * </span>Bit coin mining machines are called nodes (millions)
+<span id="L16" class="LineNr">16 </span><span class="Identifier">            * </span>Often times they use GPUs to compute computations for Bitcoins
+<span id="L17" class="LineNr">17 </span><span class="Identifier">            * </span>That's why GPU's are so damn expensive right now
+<span id="L18" class="LineNr">18 </span><span class="Identifier">                * </span>GPU's are better pound for pound
+<span id="L19" class="LineNr">19 </span><span class="Identifier">                * </span>GPU's are great at parallel processing
+<span id="L20" class="LineNr">20 </span><span class="Identifier">        * </span>What does it mean to mine bitcoin
+<span id="L21" class="LineNr">21 </span><span class="Identifier">            * </span>There are a shit ton of master nodes (~thousand's)
+<span id="L22" class="LineNr">22 </span><span class="Identifier">            * </span>Whenever somebody wants to mine, they send a message to the master node
+<span id="L23" class="LineNr">23 </span><span class="Identifier">            * </span>The master node sends back a message with a part of the overall transaction
+<span id="L24" class="LineNr">24 </span><span class="Identifier">            * </span>When you make a bitcoin transaction you have the:
+<span id="L25" class="LineNr">25 </span><span class="Identifier">                * </span>Bitcoin Addresses
+<span id="L26" class="LineNr">26 </span><span class="Identifier">                * </span>Miners Fee
+<span id="L27" class="LineNr">27 </span><span class="Identifier">                * </span>Timestamp
+<span id="L28" class="LineNr">28 </span><span class="Identifier">                * </span>How much was traded
+<span id="L29" class="LineNr">29 </span><span class="Identifier">            * </span>Essentially there are <span class="VimwikiBoldItalic">no personal information involved with mining bitcoin</span>
+<span id="L30" class="LineNr">30 </span><span class="Identifier">            * </span>
+</pre>
+</body>
+</html>
+<!-- vim: set foldmethod=manual : -->

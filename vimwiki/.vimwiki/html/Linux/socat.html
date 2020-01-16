@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<title>socat</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<div id="Notes"><h1 id="Notes" class="header"><a href="#Notes">Notes</a></h1></div>
+<ul>
+<li>
+Create virtual serial port for debugging serial connections
+    <code>socat -d -d pty,raw,echo=0 pty,raw,echo=0</code>
+
+<ul>
+<li>
+Creates /dev/pts/# and /dev/pts/#+1 (pts4 and pts5 in this example)
+
+<li>
+Read / write by doing this:
+
+<ul>
+<li>
+<code>cat /dev/pts/5</code>
+
+<li>
+<code>echo "Hello World!" &gt; /dev/pts/4</code>
+
+</ul>
+</ul>
+</ul>
+
+</body>
+</html>

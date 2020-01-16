@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<title>Apr15</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<div id="Z-transform stuff"><h1 id="Z-transform stuff">Z-transform stuff</h1></div>
+<ul>
+<li>
+Slide 12: Important properties of z-transform <span id="Z-transform stuff-WE DO NOT HAVE TO MEMORIZE"></span><strong id="WE DO NOT HAVE TO MEMORIZE">WE DO NOT HAVE TO MEMORIZE</strong>
+
+<li>
+Slide 17: Important pairs of the z-transform <span id="Z-transform stuff-WE DO NOT HAVE TO MEMORIZE"></span><strong id="WE DO NOT HAVE TO MEMORIZE">WE DO NOT HAVE TO MEMORIZE</strong>
+
+<li>
+Z-Transform and inverse of Z-Transform
+
+<ul>
+<li>
+Look at it by inspection
+
+<ul>
+<li>
+"Hey look at that, this looks like some formula we have"
+
+<li>
+or
+
+</ul>
+<li>
+<span id="Z-transform stuff-Partial Fraction"></span><strong id="Partial Fraction">Partial Fraction</strong>
+
+<ul>
+<li>
+z-transforms are most likely going to be in partial fractions in dsp
+
+<li>
+if you are going to do this outside of dsp class, then you wont go far with this
+
+</ul>
+<li>
+Hard more formal:
+
+<ul>
+<li>
+too much work for us for now
+
+<li>
+don't worry about it too much
+
+</ul>
+</ul>
+<li>
+Partial Fraction method
+
+<ul>
+<li>
+any kind of rational function can be expressed as a partial fraction expansion
+
+<li>
+I think it means split up fraction so that the numerator will be smaller than denominator (with a polynomial function on the side), so z-transform can take place
+
+<li>
+We either have a fraction already, or we want one so we massage it a bit
+
+</ul>
+<li>
+Inverse z-transform example 
+
+<ul>
+<li>
+We don't need to memorize each and every step of the process, but it will likely be a matlab problem with some matlab functions
+
+<li>
+He just wants to show us the process
+
+</ul>
+<li>
+Matlab implementation
+
+<ul>
+<li>
+[R, p, c] = residuez(b, a);
+
+<li>
+[b, a] = residuez(R, p, C);
+
+<li>
+
+</ul>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+= Final Presentation =
+    * Pick a Topic in Cyberethics
+        * Sorta like Dave Winter does
+    * Choose a company you can see yourself at. Explore some ethics.
+        * Explore their stance on various things like Network Neutrality
+        * Microsoft
+        * Twitter
+        * Dark web
+        * Block Chain
+        * Machine Learning
+        * Psychological affect of game addiction
+            * how do companies get you addicted
+        * Could be a topic that we have gone over, or one we haven't gone over yet
+    * Dont reiterate things that we have gone over in class
+        * everything should be new material
+        * You can explore things without talking about things we've gone over in the past
+    * 50 - 55 minutes long presentation
+    * Everybody needs to present about the same length of time
+    * Checkout the rubric on ENGR 350 trello
+    * Needs to have some sort of visual media

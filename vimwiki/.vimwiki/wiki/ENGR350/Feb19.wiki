@@ -1,0 +1,141 @@
+* Midterm on next tuesday
+= Review =
+    * We talked about regulations before
+    * Why would we hate regulations
+        * Warranties, Net Neutrality, Consumer Annoyances 
+    * Why would we like regulations
+        * Safety, Quality, Profit, Simplification
+    * Usually regulations = restrictions, which may be good or bad
+= Network Neutrality =
+    * Why we don't have NN now
+    * What is NN?
+    * Today's goal it to take away some confusion
+    * What is the internet?
+        * We can't really define it to somebody 100 years ago, since you can't 
+          describe it without using computer jargon, of which there was none of at the time
+    * Regulation 
+        * Purposes
+            * Safety
+            * Transparency
+            * User perception
+        * Self-regulation
+        * Regulationg cyberspace
+            * Well the internet really isn't a company... it's a media
+            * Not owned by any one part
+            * Tricky
+            * You can find/do just about anything online
+            * How do we begin conversation about how internet can be regulated
+            * First we need to look to the past
+        * Traditional Media Regulation
+            * FCC - regulates broadcast, print, cable, or circulation of any type of media
+            * Traditionally there have been 3 main types of media
+                * Print media - Books, newspapers, magazines, leaflets, comics 
+                    * Anything you can physically hold in a store/buy
+                    * Regulated by things like publishers
+                        * Publishers act as your lawyers / advertisers / editors / content-regulators / printers
+                    * FCC regulates all the publishers
+                * Broadcast Media
+                    * Radio - Radio AM/FM, Television
+                    * FCC regulates frequencies / bad language / reputation
+                * Common Carriers
+                    * Telephone Companies
+                    * Cable Companies
+                        * People who come in a put in place pipes / cables into your home
+                    * Public Utilities that anyone can have access to
+                        * Water / Electric / Gas
+                    * (they serve the general public without discrimination)
+                * Where does the internet fall in all of this?
+                    * Kinda in all 3, but Kinda not in all 3
+                * So how does regulation work within the 3
+                    * Aims to protect children
+                    * Restrictions based on rating systems (G, PG, R, X, ...)
+                    * Different 'tiers' of protection (premium channels allow some regulated content to be shown, but you got to pay extra)
+                    * Allows equal opportunities to advertise, regardless of content
+                    * Project against illegal content
+                    * You're not allowed to discriminate advertisers
+        * Who does the regulating
+            * Federal Communications Commissions (FCC)
+            * Their main goal is to:
+                * "make available so far as possible, to all the people of the United States, without discrimination on the basis of 
+                  race, color, religion, national origin, or sex, rapid, efficient, Nationwide, and world-wide wire and radio 
+                  communication services with adequate facilities at reasonable costs"
+                * Make sure people/advertisers aren't discriminated by anything
+        * Cyberspace as a mediu
+            * Should the internet itself be classified as a common carrier?
+                * Well, not really... the internet doesn't really fit into the 3 traditional media types
+                * But, companies that provide internet service can be considered common carriers, which means they can be regulated
+                * So should they be?
+            * Lets look through some history to see
+        * A bit of history
+            * 1996 - Telecommunications act
+                * Says telecom companies (ISPs) can compete how they see fit.
+                * pretty much allowed ISPs to create monopolies
+                * Allowed gerrymandering of cable coverage in neighborhoods
+            * 2003 - term "Network Neutrality"
+                * Some ISPs were banning the use of VPNs through their networks
+                * and some weren't allowing users to use their own WiFi routers
+            * 2005 - ISP Madison River was blocking internet phone calls on their network
+                * FCC fines them and bans this sort of blocking
+                * Supreme Court rules that ISPs will not be regulated by the FCC
+                * FCC says ISP needs to be regulated, ISP's were saying that they aren't common carriers
+                  and ISP's cite Telecommunications Act of 1996.
+            * 2008 - Comcast found to be blocking BitTorrent connections on its network
+                * FCC orders them to stop
+                * Comcast sues the FCC and wins
+            * 2008 - Apple gets caught blocking all desktop Skype calls calls at the request of AT&T
+                * This happened directly after Microsoft buys Skype
+                * FCC threatens to sue and the blocking stops
+            * 2010 - Streaming websites and appliations (gamers/netflix/hulu/football/etc) really take wind
+                * Companies lacked the infastructure to support the sudden onslaught of streamers
+                * Companies panicked and started banning gamers from networks
+            * 2010 - FCC passes "Open Internet Order"
+                1. ISP's must be transparent about how they handle network congestion
+                2. ISP's must prohibit blocking of traffic
+                3. ISP's must ban unreasonable discrimination
+            * 2010 - Verizon Sues FCC for overstepping their bounds
+                * Open Internet Order is removed
+            * 2012 - Class action lawsuit against AT&T for blocking FaceTime for users without a mobile share plan
+                * Petition to AT&T saying that they are not happy and are about to leave
+                * AT&T promptly stops the blocking, as to keep their userbase
+            * 2014 - Comcast begins charging Netflix a monthly fee
+                * https://www.youtube.com/watch?v=NAxMyTwmu_M
+                    * Net Neutrality in the US: Now what?
+                * This fee is imposed on content providers that use a lot of bandwidth
+                * Last Week Tonight thing happened - and jumpstarted a movement
+                * 4 million+ people write to FCC (most in history)
+                * Lots of tech companies start supporting Net Neutrality ideas
+                * Obama calls for reclassification of the internet as a utility (common carrier)
+            * *2015 - FCC passes Network Neutrality for the first time
+                * http://www.nytimes.com/video/technology/100000002881329/how-net-neutrality-works.html
+                * Prevents "the blocking or prioritizing of any legal internet traffic
+                * No more ISPs charging content providers to unlock speeds
+            * 2017 - FCC changes its mind and removes Net Neutrality rules
+                * This means ISPs have more control over traffic on their networks
+            * 2018 - The following states passed their own versions of Net Neutrality
+                * Washington 
+                * Oregon
+                * California
+                * New Jersey
+                * (Another one)
+        * Taking Sides
+            * ISP side
+                * ISPs say that some content providers like Netflix and other streaming companies account 60% or more of all bandwidth
+                    * Without NN laws, they can charge those streaming copanies extra money to serve that streaming content
+                    * They could technically also charge end users premium fees to unlock certain bandwidth allowances
+                    * They can then use that money to improve their network infrastructure and provide better internet to everyone
+                * ISP's say there aren't any anti-monopoly laws for content providers so NN seems to be unfair
+                    * Seems like monopolies form in different ways, though
+            * Historically content providers like Google, Netflix, Microsoft, HBO... generally like NN
+                * They won't need to pay extra money just to have content served as normal
+                * They can then put morem oney into their content and focus on better quality
+            * But lately, even companies like Netflix and Google seem to be oka without Net Neutrality
+                * They're already "big enough to get the deals we want"
+                * Fewer startups can compete, because they just don't have the money to
+        * But what about public internet access?
+            * School Computers
+            * Library Access
+            * Public Wifi
+            * Private Networks
+            * Content can still be blocked to these access points, but only through personal firewalls
+                * The ISP must allow all lawful content to be accessed from the provider - after that, it can be blocked on private networks
+            * So CSULB blocking bit-torrent has nothing to do with this, guys

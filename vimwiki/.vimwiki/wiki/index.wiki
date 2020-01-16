@@ -1,0 +1,33 @@
+= Contents =
+    - [[#My Knowledge Base|My Knowledge Base]]
+    - [[#Personal|Personal (hidden from github)]]
+
+= My Knowledge Base =
+    * [[Linux/index|Linux Wiki]]
+    * [[Work_Study/index|Work Study]]
+    * Projects
+        * [[vfile:~/Development/460Labs|460Labs]]
+            * [[vfile:~/Development/460Labs/Project_1|Project_1]]
+    * Classes 
+        * Spring 2019 
+            * [[ENGR350/index|ENGR 350 Sec 03 6687 Computers- Ethics & Society]]
+            * [[CECS447/index|CECS 447 Sec 03 7850 Microcontrollers & Controllers III ]]
+            * [[CECS490A/index|CECS 490A            Senior Design I]]
+            * [[CECS463/index|CECS 463             Digital Signal Processing]]
+            * [[CECS 460/index|CECS 460             FPGA stuff]]
+          
+        * Fall 2019 
+            * [[CECS 474|CECS 474             Computer Net Interoperability]]
+            * [[CECS 440|CECS 440             Computer Architecture]]
+            * [[CECS 490B|CECS 490B            Senior Design II]]
+            
+    * Cool Github Projects:
+    
+    * Know these for interviews:
+        * Embedded Topic
+            * [[Embedded]]
+    
+= Personal =
+_Everything in here is ignored by git_
+    * [[Personal/index|Personal Index]]
+    

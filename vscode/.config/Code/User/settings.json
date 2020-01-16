@@ -1,0 +1,27 @@
+{
+    "vim.neovimPath": "/usr/bin/nvim",
+    "vim.enableNeovim": true,
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [ "j", "k" ],
+            "after" : [ "<Esc>" ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [ "<space>" ],
+            "commands": [ ":nohl" ]
+        }
+    ],
+    "vim.leader": ","
+    //"vim.handleKeys": {
+    //    "<C-a>": false,
+    //    "<C-f>": false
+    //}
+}

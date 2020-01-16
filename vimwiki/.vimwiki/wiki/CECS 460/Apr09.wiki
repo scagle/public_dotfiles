@@ -1,0 +1,49 @@
+= Exam 2 Answers =
+    1. Sketch example of proj directory structure. Discuss how the structure compares to the soc flow
+        1. Work at the (sccs, srcs, users, sim, ...) row is for chip level integration + verification
+        2. Work here is Block Level Design and Verification
+    2. What is meant by the term "Always working model (AWM)" ? At what time in the develepmont flow is this put in place? Explain the role of the librarian regarding the AWM
+        1. Always working model
+        2. When? Once the Project was reached an initial level of completeness- Able to run end to end simulation
+        3. What? Only Files/Scriptsss/Text fixtures/HDL that pass chip level simulations are allowed in chip level directory
+        4. Allows delierables to easily identify source of errors in design
+        5. Librarian responsible for verifying correctness before admitting into library
+    3. When developing an "Internnaly Developed Digital Block" describe the topics that should be documented in the chip spec
+        1. Description
+        2. Block Diagram
+        3. I/O
+        4. State Machines
+        5. Register Map
+        6. Verification
+    4. When designing with Verilog there is an error message wehn one attempts to assign a variable in two procedural blccks, one @(posedge clk) and the other @(*)
+        1.Expllain what the designer is aasking the tool to do 
+        Explain if the tool is able to do this and why/why not
+            always @(posedge clk) -> Sequential (Implement as flops)
+            Always @(*) 0> Combinational (implemnets as gates)
+            Trying to have signal driven by .......
+            Always @(*) 0> Combinational (implemnets as gates)
+    5. iIn the design of the UART recieve there is a need to detect the start of a transmision. Explain the technique used to know when it is time to begin collecting data. Include how the two sidesare able to stay in sync
+        1. No Activity (MARK)
+        2. Begin Start
+        3. Count 1/2 bit to middle of start bit
+        4. Count whole bit time to sample line
+        5. Same bit rates TX ^ RX)
+            1. As long as  ...
+    6. For serail commm there is an option to include a parity bit explain how tis is generated and why one should use it
+      7. Parity is an extra bit .......
+    6.What is difference between version contorl and release control?
+        Version control keeps track of fiiles
+        Release control keeps track of builds
+    1. Draw the State Transition Diagram for the UART recieve state machine
+    2. Draw the way 0x9D would should up on the TX liine with 7O1
+        1.mark, start, 1, 0, 1, 1, 1, 0, 0, parity (1), stop 
+    3. Document each state as to what function it is performing
+        1. SEE BEACHBOARD
+    4. The following documents the performance of a development team performing the development of a verification effort Please discuss how a manager couldhave used this info to help reach a successfull coclusion
+        1.  Manager could add staff overtime to deal with behind (he could do any number of things to remedy a behind team by doing X)
+    2. Sketch the timing diagram for the tramelblaze external interface when executing the following sequence of commands
+    3. Discuss what is meant by the phrase "Requirements flow odwn, Accountability flows up"
+        4. Each subsystem is a ____ of a system. Each system ....
+    6. A circuit needs to be designed that would issue a single  clock wide pulse every 1/2 second. Aassuming a 50 MHz clock with a high active reset, give the description of the design in terms of the WE THINK, WE CoMPUTE, WE WRITE, & WE GET
+    7. 
+    8. 

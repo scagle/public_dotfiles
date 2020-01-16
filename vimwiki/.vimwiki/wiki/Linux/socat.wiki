@@ -1,0 +1,6 @@
+* Create virtual serial port for debugging serial connections
+    `socat -d -d pty,raw,echo=0 pty,raw,echo=0`
+    * Creates /dev/pts/# and /dev/pts/#+1 (pts4 and pts5 in this example)
+    * Read / write by doing this:
+        - `cat /dev/pts/5`
+        - `echo "Hello World!" > /dev/pts/4`

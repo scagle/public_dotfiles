@@ -1,0 +1,22 @@
+= Notes =
+    * [[Jan29|Jan29 - Philosophical Theroies to Ethics]]
+    * [[Feb05|Feb05 - Privacy]]
+    * [[Feb07|Feb07 - (WE NEED A JOB)]]
+    * [[Feb12|Feb12 - Regulation]]
+    * [[Feb19|Feb19 - Network Neutrality]]
+    * [[Feb21|Feb21 - The Digital Divide]]
+    * [[Mar05|Mar05 - (Final Presentation stuff)]]
+    * [[Mar12|Mar12 - Copyrights and Patents]]
+    * [[Mar19|Mar19 - Block Chain]]
+    * [[Mar26|Mar26 - Hacktivism]]
+    * [[Apr09|Apr09 - 3 Types of Errors and Failures]]
+    * [[Apr11|Apr11 - Outsourcing, offshoring, onshoring]]
+    * [[Apr16|Apr16 - Internet Laws/Regulations (GDPR / EU)]]
+= Study =
+    * [[Apr26|Apr26 - Final Presentation Notes]]
+
+= Reviews =
+    * [[Midterm1]]
+    * [[Mar05|Final Presentation Notes]]
+= Resources =
+    - Moral Machine MIT EDU

@@ -1,0 +1,63 @@
+= Block Chain = 
+    * Something that not a lot of people know how it works
+    * Bitcoin is the first major block chain
+    - Background
+        * Bitcoin came about after the recession around 2008
+        * Databases used to only exist in one place
+            * People/Person who invented bitcoin thought that was dumb
+            * They wanted distributed databases
+    - Description
+        * Block Chain is just a distributed ledger system
+        * We don't know who the bitcoin creators were, but they built a damn good system
+        * Bitcoin hasn't been compromised ONCE
+            * Exchanges have been compromised but not bitcoin itself
+        - *Node*
+            * Bit coin mining machines are called nodes (millions)
+            * Often times they use GPUs to compute computations for Bitcoins
+            * That's why GPU's are so damn expensive right now
+                * GPU's are better pound for pound
+                * GPU's are great at parallel processing
+        - *Master Node*
+            * Bit coin server that just organizes nodes, and compares the numbers to the actual key
+            * Moderators essentially, make sure that everyone plays fair
+        * What does it mean to mine bitcoin
+            * There are a shit ton of master nodes (~thousand's)
+            * Whenever somebody wants to mine, they send a message to the master node
+            * The master node sends back a message with a part of the overall transaction
+            * When you make a bitcoin transaction you have the:
+                * Bitcoin Addresses
+                * Miners Fee - Like money in the pot in blackjack
+                * Timestamp
+                * How much was traded
+            * Essentially there are _*no personal information involved with mining bitcoin*_
+            * The Nodes are just trying to guess the decryption key for these transactions
+            * *RULES*
+                * New key per transaction
+                * No two keys can be the same
+            * When bitcoin first started the keys were small (IE 0-99)
+            * Now the digits are in the range of 1 x 10^29 (100,000,000,000,000,000,000,000,000,000) 
+        * If you try to change your bitcoin key then that key in itself will easily be invalidated
+            * Like super advanced parity or something like that (NOT SURE)
+        * Halving system
+            * Every six months or so, the miners fee gets split in half
+            * Nodes have less incentive to stay in the game these days, because the payout is so small
+    - Where should you bitcoin mine?
+        * Some place where its naturally cold
+        * Some place where power is super cheap
+        * Some place where power regulations are minimal
+        * So basically some cabin in the snowy mountains of Russia...
+        * Cheap power = things like coal power = bad for environment
+        * *Bit Coin can be non-environmentally friendly, because it requires cheap power to be profitable*_
+    - Block Chains
+        * A chain of blocks of 2MB that everyone can access, because it's so small
+        * Advantages
+            * Secure
+            * Modularized
+            * Automation
+        * Disadvantages
+            * Energy Use
+            * Anonymous
+            * Time it takes
+    - Why does IBM and Tesla and other companies want to use Block Chains
+        * Security
+        * Tesla car might see a tree in the road, and the car will communicate to 

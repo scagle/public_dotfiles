@@ -1,0 +1,11 @@
+Control Objective: Maintain x no matter what
+Process Variable: Variable that is to be processed
+
+Plant = Two Blocks = Actuator and Process
+- Actuators aren't perfect.
+    - They encounter Backlash, rate constraints, saturation
+- 
+
+    Proportional Controller ---+      [       Plant       ]
+    Integral Controller -------|----> Actuator ----> Process
+    Derivative Controller -----+

@@ -1,0 +1,7 @@
+= Review =
+    * PCTL
+        * Determines alternate functions
+        * 32 bit MC = 8 pins * 4 bits of alternate functions = up to 16 alternate functions per pin
+    * PWM
+        * $40 x 10^6 / 1x10^3 = 40,000$
+        *   40MHz      1KHz  

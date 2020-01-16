@@ -1,0 +1,59 @@
+= VHDL =
+    * Very High Speed Integrated Circuit (VHSIC)
+    * Hardware
+    * Description
+    * Language
+    * Make sure we use the textbook and internet sources to get better at it
+    * NOT a software language, it's a hardware description language
+    
+    * Entity = The inputs / outputs interfacing stuff
+    * Architecture = The behavioral / structural part of the file
+        * Behavioral (black box input / output)
+            * Dataflow (concurrent statements
+            * Algorithmic (sequential statements)
+        * Structural (combining stuff to make cooler stuff)
+            * Instantiate and interconnect components to relaize circiuti
+            * Hierarchical design
+            * Gate level design
+    * VHDL is a strongly typed language
+        * BIT and BIT_VECTOR are two valued data types
+        * 0, 1, Z (high impedance), X(unkown), U(uninitialized)
+        * ieee.std_logic_1164 defines interconnection type
+        * ieee.std_logic_arith provides a set of arithmetic conversiona
+        * ieee.std_logic ?????????????
+    * ENTITY declaration
+        * PROCESS statements
+            * Process blocks are concurrent (all run simutaneously)
+                * The stuff inside Process blocks are sequential (all run sequentially one after another)
+    * Code Examples
+        `ENTITY entity_name IS`
+        `   PORT (signal_name) : [mode] type {`
+        `   signal_name: [mode] type`
+        `});`
+        `END entity_name;`
+////////////////////////////////////////////////////////////        
+        `ENTITY half_adder IS              `
+        `    PORT( x, y, enable: IN bit;   `
+        `          carry, result: OUT bit);`
+        `END half_adder                    `
+////////////////////////////////////////////////////////////        
+        `ARCHITECTURE architecture_name OF entity_name IS `
+        `    [declarations]                               `
+        `BEGIN                                            `
+        `    architecture body                            `
+        `END architecture_name                            `
+////////////////////////////////////////////////////////////        
+        `ARCHITECTURE behave OF half_adder IS `
+        `BEGIN                                `
+        `    PROCESS (enable, x, y)           `
+        `    BEGIN                            `
+        `        IF (enable = '1') THEN       `
+        `            result <= x XOR y;       `
+        `            carry  <= x AND y;       `
+        `        ELSE                         `
+        `            result <= '0';           `
+        `            carry  <= '0';           `
+        `        END IF;                      `
+        `    END PROCESS;                     `
+        `END behave;                          `
+////////////////////////////////////////////////////////////        

@@ -1,0 +1,19 @@
+= Chip Specs =
+    * External Documents
+        * Picoblaze docs
+        * Xilinx Nexys 4 Artix 7 Board docs
+        * RS232 Standard
+            * There's electrical standards, but we don't get involved with that
+            * RS422 - Differential Drivers and ...
+                * only defines electrical
+            * RS485
+                * Multi-point communication, just electrical
+            * For us, RS232 has both electrical and protocol, but we want just the protocol
+        * In your spec you don't include everything from the compliant documentation, you just refer to it, and the reader has to go and see it themselves
+
+= Projects =
+    * TX
+    * Full UART
+    * TSI
+        * Trivial
+    * Memory

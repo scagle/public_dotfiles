@@ -1,0 +1,122 @@
+= Review =
+    * Deontology
+    * Utilitarianism
+    * Social Contract
+        * Both Deontology and Utilitarianism make a social contract
+        * You shouldn't kick somebody in the shins. It's not really explicitly stated, but we just know we shouldn't do it
+    * Positive Rights
+        * Somebody needs to do something to provide for you
+        * Public education
+        * Welfare
+    * Negative Rights
+        * Freedom of speech
+        * Digitize any negative right, and it becomes a positive right
+            * People need to provide servers, forums, forum moderators, GDPR, security, etc for your freedom of speech
+    * Discussion Stoppers
+        1. People Disagree
+        2. People Judge 
+        3. Ethics is Private
+        4. Ethics is Cultural 
+= Privacy = 
+    * There's more than one types of privacy. And, those types are generally complex when it comes to online and protection
+    * (generally) - privacy involves some sort of protection, but it's hard to form a single definition
+        * Privacy can be lost or diminished
+        * Privacy can be intruded on or invaded
+        * Privacy can be violated or breached
+    * Accessibility Privacy 
+        * Accessibility Privacy speaks to an individiual's freedom to physical non-intrusion
+        * Focuses on harm that can be caused through phyiscal access to a person or their possessions
+            * Being physically left alone  
+            * Being free from gov intrusion
+            * Being free from other intrusion
+        * Paporazzi
+        * Doxxing
+        * Google maps knows exactly where everybody is, and where their homes are
+            * They have a responsibility to keep that private
+        * As new tech develops the list goes on
+            * IOT stuff
+            * GPS data
+            * Devices that "learn" your habits
+            * Online advertising
+            * Any data in the case of ransomware
+    * Decisional Privacy
+        * Speaks to an individual's freedom to non-interference of choice
+        * Focuses on harm that can be caused through preventing access to making one's own decisions
+        * Being left alone to make choices
+            * Political
+            * Social
+            * Religious
+            * Economic
+            * Personal
+        * Google has your data so they try to cater searches to fit your lifestyle, which is kinda weird
+        * Censorship
+        * Net Neutrality
+            * IPS blocking text messages from certain organizations
+        * Voter Suppression
+            * Amazon reviews is kinda like a vote
+        * ISP's favoring their own content above others
+        * ISP's creating monopolies that don't compete
+        * Censorship of legal content online
+    * Informational Privacy
+        * Information PRivacy speaks to an individual's freedom to information-protection
+        * Focuses on harm that can be caused through having your data stolen or being locked out of your data
+        * Protects against
+            * Information theft 
+            * Blocking others from controlling the flow of their own information in any way
+        * Becomes a more important issue as cybertechnology advances
+            * In the past, paper records had to be discarded or destroyed to save physical space
+            * Computers have an "infinite" amount of space
+            * "Womb to Tomb" information
+                * Before you're even born, to the time you die you'll information will be online
+                * Causes problems for Facebook, Google, ICloud hack, Target hack, etc
+    * Descriptive Privacy 
+        * What is the case
+        * Natural Privacy
+        * Walk by computer lab and observe someone using a computer
+        * Loss of privacy (can't help it)
+        * Example
+            * A Teacher teaches a class, being in public, working in a public place
+    * Normative Privacy
+        * What should be the case
+        * Violated Privacy
+        * Stalk someone and spy on them using a computer at home
+        * Violates expectations of privacy
+        * Example
+            * Your home, public bathroom
+    * What you think it an offensive breach of privacy, I might think is fine
+        * Therefore it's incredibly difficult to make laws when there is no clear line
+    * Importance of privacy
+        * Older generations tend to say "very"
+        * My age and younger tend to say "not as much"
+        * Western nations and urban areas say "very"
+            * Individuals are seen as more important than the whole
+            * This has changed a bit with security and political issues
+        * Eastern nations and smaller communities say "not as much"
+            * Broader community is seen as more important than individuals 
+            * Though, many individuals in society don't agree
+        * Not everyone agrees 
+            * This makes it difficult to decide how it should be protected
+    * Data Gathering and Exchange
+        * Techniques are used to collect and record personal information usually not known to the user
+            * Consensus data
+            * Surveillance 
+            * Internet cookies
+            * Shopping tracking (through "value" or "club" cards)
+            * Cell-phone location tracking
+        * That data is then shared between databases - in an effort to make data "more complete"
+            * Advertisements
+            * Traffic data
+            * Business services
+    * Data Merging
+        * Combining data from multiple sources to identify individual records or groups of individua records
+        * (DoubleClick)
+    * Data Matching
+        * Comparing data from multiple sources to search for matches or "hits" among those sources
+        * (Super Bowl)
+    * Data Mining
+        * Combining and comparing data, then identifying non-obvious trends from that data
+        * (credit risk)
+    * Is there merit in data merginig, matching, or mining?
+        * Probably yes
+    * What does that mean for privacy
+        * Its a give and take

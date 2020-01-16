@@ -1,0 +1,34 @@
+* Platter:
+    * Magnetic disk that holds the information. Usually two sided
+    * Surface is a surface of the platter
+* Spindle:
+    * The center of the circle that hold and spin the platters together
+* Head:
+    * Tiny magnet used to read and write data from the platters
+* Track:
+    * A circle path that a head can take on a platter. Many many many concentric circles on a platter.
+    * Sector:
+        * An arc of a track that contains header, data, and data recovery information
+* Cylinder:
+    * A vertical set of parallel tracks ( all tracks in which are readable by the N number of heads )
+
+
+Parameters:
+    * # of Cylinders = # of tracks surface/platter
+    * # of Tracks per Cylinder => (# of read/write heads) or (# of platters * 2)
+    * # of Sectors per track 
+    * # of Bytes per sector 
+Disk Capacity can be calculated based on above information
+
+Step 1: Which is the appropriate cylinder
+     Seek Time = Time for head to reach the right cylinder 
+  +  Rotational Delay = Time for Sector to reach head
+  --------------------------------------------------------
+      Access Time
+  +   Read Time: time to read one sector (once it is placed under head)
+  ---------------------------------------------------------------------
+      Transfer Time
+      
+IE: If Rotation Speed is 3600 RPM
+    ( ( 1 / 3600 ) * 60 sec/min ) / 2 = Average Rotational Delay
+    = 8.32ms

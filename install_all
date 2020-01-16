@@ -1,0 +1,6 @@
+#!/bin/bash
+DOTCONFIG=$HOME/.config
+if [[ ! -d "$DOTCONFIG" ]]; then
+    mkdir "$DOTCONFIG"
+fi
+stow `ls -d */`

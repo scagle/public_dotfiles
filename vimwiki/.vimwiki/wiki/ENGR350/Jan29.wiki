@@ -1,0 +1,61 @@
+= Review =
+    * What is ethics
+    * Normative vs ______ (investigative?)
+    * Philosophical, Sociological, Business ethics
+    * Policy Vacuums
+    * Ethics are same issues, but different scenario
+
+= Philosophical Theroies to Ethics =
+* Social Contracts
+    * Deontology
+        * Rule based system of ethics
+        * "Good things are good because of their goodness"
+        * "Bad things are bad because of their badness"
+        - Pros
+            - Pretty consistent
+            - Black and White
+            - Simple and Consise
+        - Cons
+            - Limited Perspective
+            - No Special Cases
+            - Repeating, not participation
+    * Ultilitarianism
+        * Consequence-Based theory of ethics 
+        * "Good and Bad are determined by an actions outcome"
+        * "What's good for most is good for all"
+        - Pros
+            - Majority always wins
+            - Allows us to act in self-interest
+            - More than one solution
+            - Allows for special cases
+        - Cons
+            - Minority always loses
+            - Minoritys worth is ignored
+            - Easily manipulated (you can spin anything to seem right)
+            - No individual rights
+
+* Rights-Based Theories 
+    * Negative Rights
+        * "If nobody does anything, we retain these rights"
+        * Free Speec
+        * Right to form Family
+        * Privacy
+    * Positive Rights
+        * "If nobody does anything, we lose these rights"
+        * Police search and seizure
+        * Security
+        * Miranda Rights
+* Discussion Stoppers
+    1. People Disagree
+    2. People Judge 
+    3. Ethics is Private
+    4. Ethics is Cultural 
+   
+== Homework == 
+    - issue study
+        - Assignment on moral machine where we need to discuss how we made 
+          our decisions using social contract stuff
+          
+== Examples ==
+- Trolley killing scenario 
+- Silicone Valley is very Utilitarianism with 25 solutions to an ethical problem

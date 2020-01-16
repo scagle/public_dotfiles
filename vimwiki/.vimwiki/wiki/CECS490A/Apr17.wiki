@@ -1,0 +1,10 @@
+= Embedded Communication cont =
+== Asynchronous Serial Communication ==
+    * UART
+        * 0 - 3.3 / 5 Volts
+        * Least Significant Bit first
+        * STOP/IDLE bits = high
+    * RS232
+        * -12 - +12 Volts
+        * Least Significant Bit first
+        * STOP/IDLE bits = low

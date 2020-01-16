@@ -1,0 +1,13 @@
+# Don't let ripgrep vomit really long lines to my terminal, and show a preview.
+--max-columns=150
+--max-columns-preview
+
+# Add C++ type
+--type-add
+cpp:*.{c,cpp,h,hpp}*
+
+# Smart Case
+--smart-case
+
+# Ignore file
+--ignore-file=/home/steven/.gitignore

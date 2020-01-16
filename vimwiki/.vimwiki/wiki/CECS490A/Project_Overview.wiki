@@ -1,0 +1,12 @@
+= Goals = 
+    * 360 degree horizontal x ~60 degrees vertical rotation
+    * Use cameras to get coverage on all of that rotation
+        * Stitch together 3ish cameras?
+        * Buy a 360 camera?
+        * Rotate 1 or 2 cameras?
+    * Be able to detect a laser within coverage using above cameras
+    * Be able to rotate the turret 360 degrees horizontally
+    * Be able to rotate the turret ~60 degrees horizontally
+    * Be able to fold up legs and easily carry it
+    * Be able to translate camera to 
+

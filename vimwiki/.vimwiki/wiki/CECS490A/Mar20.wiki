@@ -1,0 +1,4 @@
+= 3D Printing =
+    * FDM - Fused Deposition Modeling
+    * Additive Process - We are adding material to make our parts
+    * Subtractive Process - CNC machines

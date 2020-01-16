@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<title>Apr09</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<div id="Exam 2 Answers"><h1 id="Exam 2 Answers">Exam 2 Answers</h1></div>
+<ol>
+<li>
+Sketch example of proj directory structure. Discuss how the structure compares to the soc flow
+
+<ol>
+<li>
+Work at the (sccs, srcs, users, sim, ...) row is for chip level integration + verification
+
+<li>
+Work here is Block Level Design and Verification
+
+</ol>
+<li>
+What is meant by the term "Always working model (AWM)" ? At what time in the develepmont flow is this put in place? Explain the role of the librarian regarding the AWM
+
+<ol>
+<li>
+Always working model
+
+<li>
+When? Once the Project was reached an initial level of completeness- Able to run end to end simulation
+
+<li>
+What? Only Files/Scriptsss/Text fixtures/HDL that pass chip level simulations are allowed in chip level directory
+
+<li>
+Allows delierables to easily identify source of errors in design
+
+<li>
+Librarian responsible for verifying correctness before admitting into library
+
+</ol>
+<li>
+When developing an "Internnaly Developed Digital Block" describe the topics that should be documented in the chip spec
+
+<ol>
+<li>
+Description
+
+<li>
+Block Diagram
+
+<li>
+I/O
+
+<li>
+State Machines
+
+<li>
+Register Map
+
+<li>
+Verification
+
+</ol>
+<li>
+When designing with Verilog there is an error message wehn one attempts to assign a variable in two procedural blccks, one @(posedge clk) and the other @(*)
+        1.Expllain what the designer is aasking the tool to do 
+        Explain if the tool is able to do this and why/why not
+            always @(posedge clk) -&gt; Sequential (Implement as flops)
+            Always @(*) 0&gt; Combinational (implemnets as gates)
+            Trying to have signal driven by .......
+            Always @(*) 0&gt; Combinational (implemnets as gates)
+
+<li>
+iIn the design of the UART recieve there is a need to detect the start of a transmision. Explain the technique used to know when it is time to begin collecting data. Include how the two sidesare able to stay in sync
+
+<ol>
+<li>
+No Activity (MARK)
+
+<li>
+Begin Start
+
+<li>
+Count 1/2 bit to middle of start bit
+
+<li>
+Count whole bit time to sample line
+
+<li>
+Same bit rates TX ^ RX)
+
+<ol>
+<li>
+As long as  ...
+
+</ol>
+</ol>
+<li>
+For serail commm there is an option to include a parity bit explain how tis is generated and why one should use it
+
+<ol>
+<li>
+Parity is an extra bit .......
+    6.What is difference between version contorl and release control?
+        Version control keeps track of fiiles
+        Release control keeps track of builds
+
+</ol>
+<li>
+Draw the State Transition Diagram for the UART recieve state machine
+
+<li>
+Draw the way 0x9D would should up on the TX liine with 7O1
+        1.mark, start, 1, 0, 1, 1, 1, 0, 0, parity (1), stop 
+
+<li>
+Document each state as to what function it is performing
+
+<ol>
+<li>
+SEE BEACHBOARD
+
+</ol>
+<li>
+The following documents the performance of a development team performing the development of a verification effort Please discuss how a manager couldhave used this info to help reach a successfull coclusion
+
+<ol>
+<li>
+ Manager could add staff overtime to deal with behind (he could do any number of things to remedy a behind team by doing X)
+
+</ol>
+<li>
+Sketch the timing diagram for the tramelblaze external interface when executing the following sequence of commands
+
+<li>
+Discuss what is meant by the phrase "Requirements flow odwn, Accountability flows up"
+
+<ol>
+<li>
+Each subsystem is a ____ of a system. Each system ....
+
+</ol>
+<li>
+A circuit needs to be designed that would issue a single  clock wide pulse every 1/2 second. Aassuming a 50 MHz clock with a high active reset, give the description of the design in terms of the WE THINK, WE CoMPUTE, WE WRITE, &amp; WE GET
+
+<li>
+
+
+<li>
+
+</ol>
+
+</body>
+</html>
