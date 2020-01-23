@@ -12,4 +12,8 @@ source $HOME/.vim/vimrc/plugin_configs.vim
 source $HOME/.vim/vimrc/mappings.vim
 source $HOME/.vim/vimrc/looks.vim
 source $HOME/.vim/vimrc/misc.vim
+source $HOME/.vim/vimrc/humor.vim
+
+" Quick and dirty settings for temporary use ( IE: project based )
+source $HOME/.vim/vimrc/temporary.vim
 

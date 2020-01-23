@@ -24,8 +24,6 @@ if has('python3') && has('nvim')
 endif
 
 " Experimental (Rarely Use / Trying Out)
-"
-"
 "Plug 'SirVer/ultisnips'                         " Snippet  
 Plug 'honza/vim-snippets'                       " Snippets for Ultisnips
 Plug 'junegunn/fzf', {'do': './install --all'}  " Fuzzy file search for terminal

@@ -26,6 +26,8 @@ augroup end
 augroup VimWiki
     autocmd!
     let g:vimwiki_list = [{'path':'~/.vimwiki/wiki', 'path_html':'~/.vimwiki/html/'}]
+    " Disable tables, since it conflicts with Deoplete/Ultisnips, and I rarely use them
+    let g:vimwiki_table_mappings = 0
     function! VimwikiLinkHandler(link)
         " Use Vim to open external files with the 'vfile:' scheme.  E.g.:
         "   1) [[vfile:~/Code/PythonProject/abc123.py]]
@@ -48,6 +50,7 @@ augroup VimWiki
 
     " mapping to open wiki link in new tab (urxvt doesnt support default map)
     "nmap <Leader>nt <Plug>VimwikiTabnewLink
+    nnoremap <leader>wo :e ~/.vimwiki_work/wiki/index.wiki<cr>
 augroup end
 
 """" Ultisnips
@@ -56,17 +59,21 @@ augroup UltiSnips
     " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
     let g:UltiSnipsExpandTrigger="<c-j>"
     let g:UltiSnipsJumpForwardTrigger="<c-j>"
+    
     " If you want :UltiSnipsEdit to tab your window.
     let g:UltiSnipsEditSplit="tabdo"
-    nnoremap <silent><leader>eu :UltiSnipsEdit <cr>
+
+    " Where to save new snippets
     let g:UltiSnipsSnippetDirectories=[$HOME."/.vim/plugged/my-snippets/UltiSnips"]
+    " Edit Ultisnips for current filetype
+    nnoremap <silent><leader>eu :UltiSnipsEdit <cr>
 augroup end
 
 
 """" FZF
 augroup FZF
     autocmd!
-    " Get just the path of the files
+    " Grabs the name of buffers from their full paths
     function! s:GetBufferNames()
         redir => ls
         for buf in getbufinfo()
@@ -91,6 +98,7 @@ augroup FZF
       execute 'tabnew' a:e
     endfunction
 
+    " Select an open buffer, and open in current buffer
     nnoremap <silent> <leader>b :call fzf#run({
     \   'source':  reverse(<sid>GetBufferNames()),
     \   'sink':    function('<sid>bufopen'),
@@ -98,6 +106,7 @@ augroup FZF
     \   'down':    len(<sid>buflist()) + 2
     \ })<CR>
 
+    " Select an open buffer, and open it in a new tab
     nnoremap <silent> <leader>t :call fzf#run({
     \   'source':  reverse(<sid>GetBufferNames()),
     \   'sink':    function('<sid>tabopen'),

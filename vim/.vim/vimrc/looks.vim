@@ -15,7 +15,7 @@ augroup Colorscheme
     highlight DiffChange cterm=bold ctermfg=white ctermbg=blue gui=none guifg=bg guibg=Red
     highlight DiffText   cterm=bold ctermfg=white ctermbg=red  gui=none guifg=bg guibg=Red
 
-    " Deoplete
+    " Deoplete Tab Completion
     highlight Pmenu     ctermbg=black ctermfg=gray 
     highlight PmenuSel  ctermbg=yellow ctermfg=black 
     highlight PmenuSbar ctermbg=black ctermfg=yellow
@@ -25,12 +25,6 @@ augroup Colorscheme
     autocmd BufRead,BufNewFile *.cpp,*.c,*.hpp,*.h silent set colorcolumn=101
 
     autocmd BufRead,BufNewFile *.bashrc setlocal syntax=sh
-
-    " View images in vim ( for fun )
-    autocmd BufReadPre *.jpg,*.jpeg silent set ro
-    autocmd BufReadPost *.jpg,*.jpeg silent %!jp2a --width=78 "%"
-    autocmd BufReadPre *.png,*.gif,*.bmp silent set ro
-    autocmd BufReadPost *.png,*.gif,*.bmp silent %!convert "%" jpg:- | jp2a --width=78 -
 
 augroup end
 

@@ -21,8 +21,9 @@ augroup GeneralMappings
     " Toggle list symbols (useful for checking tabs)
     nnoremap <silent> <leader>l  :set list!<cr>
 
-    " Toggle spell checker
-    nnoremap <leader>sc          :setlocal spell! spelllang=en_us <cr>
+    " Toggle spell checker / Correct Spelling
+    nnoremap <leader>sc :setlocal spell! spelllang=en_us <cr>
+    nnoremap <leader>ss z=1<cr> 
 
     " Toggle word wrap
     nnoremap <silent> <leader>W  :set wrap!<cr>
@@ -48,7 +49,7 @@ augroup GeneralMappings
     inoremap jk <esc>
 
     " Tabbed File Helpers
-    function AlternateTabSize()
+    function! AlternateTabSize()
         if ( &shiftwidth == 4 ) " If default tab then
             let &shiftwidth=2
             let &tabstop=2
@@ -63,6 +64,7 @@ augroup GeneralMappings
     nnoremap <silent> <leader><tab> :call AlternateTabSize()<cr>
     inoremap <s-tab> <c-v><tab>
 
+    " Vim Terminal Helpers
     if exists(":terminal")
         tnoremap <Esc> <C-\><C-n>
         tnoremap jk <C-\><C-n>
@@ -72,17 +74,13 @@ augroup end
 augroup FileSpecficMappings
     autocmd! 
 
-    function! FindPrevPattern(pattern)
-        return filter([search(a:pattern, 'bnW'), line('.')], 'v:val')[0].'G'
-    endfunction
-    " Update Header: Creates/Updates headers in verilog files
-    " autocmd FileType verilog nnoremap <silent> <leader>uh 
-    "     \ mm/module\s\([a-z]\\|[A-Z]\\|\s\\|_\\|-\\|[0-9]\)\+(<CR>
-    "     \ :exec "normal" . FindPrevPattern('DESC:')<CR>
-    "     \ O<ESC>VggxO<ESC>0Dihead <ESC>:call UltiSnips#ExpandSnippet()<CR><ESC>:w<CR>`m
-
-    " Open Vimwikiin web browser
+"   function! FindPrevPattern(pattern)
+"       return filter([search(a:pattern, 'bnW'), line('.')], 'v:val')[0].'G'
+"   endfunction
+    
+    " Open Vimwiki in web browser
     autocmd FileType vimwiki nnoremap <silent> <leader>oc :Vimwiki2HTMLBrowse<cr> 
+
 
 augroup end
 

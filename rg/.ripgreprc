@@ -10,4 +10,4 @@ cpp:*.{c,cpp,h,hpp}*
 --smart-case
 
 # Ignore file
---ignore-file=/home/steven/.gitignore
+--ignore-file=.gitignore
