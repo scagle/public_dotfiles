@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Unstow all packages quickly and safely by doing it in a particular order
+
+# Find all subpackages in order of shallow -> deep
 find_subpackages_up_down () {
     MATCHES="*"
     while true;
@@ -15,6 +19,7 @@ find_subpackages_up_down () {
     done 
 }
 
+# Unstow all subpackages in order of deep -> shallow
 stow_subpackages_down_up () {
     SUBPACKAGES=$(find_subpackages_up_down | tr ' ' '\n' | tac)
     for SUBPACKAGE in $SUBPACKAGES
