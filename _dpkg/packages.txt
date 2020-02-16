@@ -1,0 +1,4 @@
+rg
+linux-headers-generic
+xclip
+lf
