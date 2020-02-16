@@ -1,0 +1,16 @@
+cmake
+coreutils
+ctags
+fzf
+gdb
+git
+htop
+make
+neovim
+openssh
+reattach-to-user-namespace
+ripgrep
+stow
+tmux
+tree
+vim
