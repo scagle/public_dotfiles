@@ -10,4 +10,7 @@ cpp:*.{c,cpp,h,hpp}*
 --smart-case
 
 # Ignore file
---ignore-file=.gitignore
+--ignore-file=/Users/steven.cagle@wdc.com/.ignore
+
+# Search hidden files
+--hidden

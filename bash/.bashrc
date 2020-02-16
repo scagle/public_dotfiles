@@ -10,7 +10,7 @@ PS2='> '
 # Helps with duplicated commands when "up-arrowing"
 HISTCONTROL=ignoreboth
 
-# Neovim compatibility (see $HOME/.vim/vimrc/mappings.vim:14 <leader>ev mapping)
+# Neovim compatibility (referenced in $HOME/.vim/vimrc/mappings.vim)
 export ACTUALVIMRC=$HOME/.vimrc
 
 # Tabbing multiple times shows results then starts completing results
@@ -26,7 +26,6 @@ if [[ -d "$HOME/.config/bash/" ]]; then
         source $CONFIG
     done
 fi
-
 
 # Auto-generated appended configurations:
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash

@@ -1,11 +1,18 @@
+#!/bin/bash
+
+# Edit files within git repository (starting and descending from cwd)
 alias cppe='vim `{ git ls-tree -r HEAD --name-only; git status | grep "new file" | awk '"'"'{ print $3 }'"'"'; } | grep -e "\.\(c\|cpp\)$" -e "\.\(h\|hpp\)$" | env LC_COLLATE=C sort`'
 alias cme='vim `{ git ls-tree -r HEAD --name-only; git status | grep "new file" | awk '"'"'{ print $3 }'"'"'; } | grep -e "CMakeLists.txt" -e ".cmake"`'
-alias javae='vim `{ git ls-tree -r HEAD --name-only; git status | grep "new file" | awk '"'"'{ print $3 }'"'"'; } | grep -e "\.java$" | env LC_COLLATE=C sort`'
 alias pye='vim `{ git ls-tree -r HEAD --name-only; git status | grep "new file" | awk '"'"'{ print $3 }'"'"'; } | grep -e "\.py$" | env LC_COLLATE=C sort`'
+alias javae='vim `{ git ls-tree -r HEAD --name-only; git status | grep "new file" | awk '"'"'{ print $3 }'"'"'; } | grep -e "\.java$" | env LC_COLLATE=C sort`'
 
 # Vim/Neovim editing
-[[ -f /usr/bin/nvim || -f /usr/local/bin/nvim ]] && alias vim='nvim' # Prefer neovim over vim
-[[ -f /usr/bin/vim  || -f /usr/local/bin/vim  ]] && alias vi='vim'   # Prefer either neovim or vim over vi
+if [[ ( -f /usr/bin/nvim || -f /usr/local/bin/nvim ) && -d $HOME/.config/nvim/ ]]; then 
+    alias vim='nvim' # Prefer Neovim over Vim if it's installed and stowed
+fi
+if [[ -f /usr/bin/vim  || -f /usr/local/bin/vim  ]]; then
+    alias vi='vim'   # Prefer either Neovim or Vim over Vi
+fi
 
 # Source Current Flavor's bashrc ($FLAVOR set in /etc/environment as "FLAVOR=foo")
 # Flavors defined in $HOME/.config/flavors (also see https://github.com/scagle/dotfiles)
@@ -16,7 +23,7 @@ fi;
     
 # Ripgrep
 if [[ -x /bin/rg || -x /usr/local/bin/rg ]]; then
-    export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
+    export RIPGREP_CONFIG_PATH=$HOME/.config/rg/.ripgreprc
     alias rgf="rg --files | rg"
 fi
 

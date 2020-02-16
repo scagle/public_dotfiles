@@ -1,6 +1,6 @@
-" Neovim configurations
+" Neovim Specific Configurations:
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath=&runtimepath
 set clipboard+=unnamedplus
 
-source ~/.vimrc
+source $HOME/.vimrc

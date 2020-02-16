@@ -4,4 +4,5 @@ if [[ ! -d "$DOTCONFIG" ]]; then
     mkdir "$DOTCONFIG"
     echo "$DOTCONFIG created"
 fi
-stow -t ~ stow/
+echo "Linking stow configurations"
+stow --verbose -t ~ stow/
