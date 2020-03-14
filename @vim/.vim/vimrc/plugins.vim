@@ -30,11 +30,13 @@ Plug 'junegunn/fzf.vim'                         " Fuzzy file search for vim
 Plug 'jremmen/vim-ripgrep'                      " Speeds up fzf
 Plug 'tpope/vim-fugitive'                       " Better Git wrapper
 "Plug 'unblevable/quick-scope'                   " f/F/t/T Helper
-Plug 'ludovicchabant/vim-gutentags'             " Better tags
+"Plug 'ludovicchabant/vim-gutentags'             " Better tags
 "Plug 'andymass/vim-matchup'                     " Better % 
 Plug 'christoomey/vim-tmux-navigator'           " Better tmux - vim navigation 
 Plug 'will133/vim-dirdiff'                      " Vimdiff on directories
 Plug 'tpope/vim-repeat'                         " Repeat other plugin maps with '.'
+Plug 'Konfekt/FastFold'                         " Quicker folds (computationally)
+Plug 'tmhedberg/SimpylFold'                     " Better python folding
 
 " Github markdown viewer (README.md)
 Plug 'iamcco/markdown-preview.nvim', {'do': { -> mkdp#util#install() } } 

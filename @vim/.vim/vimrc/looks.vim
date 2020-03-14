@@ -9,6 +9,9 @@ augroup Colorscheme
     " General (got fed up with DARK blue comments on black screens)
     highlight Comment ctermfg=Gray
 
+    " Fold highlight colors
+	highlight Folded ctermbg=darkgrey ctermfg=white
+
     " For vimdiff
     highlight DiffAdd    cterm=bold ctermfg=white ctermbg=blue gui=none guifg=bg guibg=Red
     highlight DiffDelete cterm=bold ctermfg=white ctermbg=blue gui=none guifg=bg guibg=Red
