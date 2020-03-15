@@ -18,9 +18,9 @@ bind "TAB:menu-complete"
 bind "set show-all-if-ambiguous on"
 bind "set menu-complete-display-prefix on"
 
-# Source all bash configurations 
-if [[ -d "$HOME/.config/bash/" ]]; then
-    CONFIGS="$HOME/.config/bash/*.bashrc"
+# Source all shell configurations 
+if [[ -d "$HOME/.config/shell/" ]]; then
+    CONFIGS="$HOME/.config/shell/*.rc"
     for CONFIG in $CONFIGS
     do
         source $CONFIG
@@ -29,7 +29,7 @@ fi
 
 # Auto-generated appended configurations:
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+
 export GHS_MULTI_PATH="/opt/ghs/multi_wd024.1"
 alias fcgchecker='python3.6 $HGST_IPFW_WORKSPACE_ROOT/../scripts/python/fcgchecker/main.py'
 alias iwyuhelper='python3.6 $HGST_IPFW_WORKSPACE_ROOT/../scripts/python/iwyuhelper/main.py'

@@ -19,6 +19,7 @@ augroup GeneralMappings
     nnoremap <C-H> <C-W><C-H> 
 
     " Fold Helpers:
+    nnoremap <silent> <leader>M  :set foldmethod=marker<cr>zX<cr>
     nnoremap <silent> <leader>I  :set foldmethod=indent<cr>zX<cr>
     nnoremap <silent> <leader>S  :set foldmethod=syntax<cr>zX<cr>
 
