@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [[ -f "$HOME/.config/tmux/tmux.conf" ]]; then
+    alias tmux="tmux -f $HOME/.config/tmux/tmux.conf"
+fi
