@@ -1,2 +1,2 @@
---target /home/steven
+--target $HOME
 --verbose
