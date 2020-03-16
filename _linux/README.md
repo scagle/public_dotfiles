@@ -1,7 +1,6 @@
 # linux (Environment Specific)
 
 ```tree
-
 .
 ├── .config
 │   └── shell

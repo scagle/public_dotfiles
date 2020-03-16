@@ -1,7 +1,6 @@
 # stow
 
 ```tree
-
 .
 ├── .stow-global-ignore
 ├── .stowrc

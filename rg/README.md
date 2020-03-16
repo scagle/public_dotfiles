@@ -1,7 +1,6 @@
 # rg
 
 ```tree
-
 .
 ├── .config
 │   └── rg

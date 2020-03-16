@@ -1,7 +1,6 @@
 # dev (No-Stow)
 
 ```tree
-
 .
 ├── README.md
 ├── update_file_tree.py

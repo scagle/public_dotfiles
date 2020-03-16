@@ -1,7 +1,6 @@
 # vscode
 
 ```tree
-
 .
 ├── .config
 │   └── Code

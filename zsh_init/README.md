@@ -1,7 +1,6 @@
 # zsh (Needs Initialization)
 
 ```tree
-
 .
 ├── .p10k.zsh
 ├── .zshrc

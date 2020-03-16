@@ -1,7 +1,6 @@
 # bash
 
 ```tree
-
 .
 ├── .bash_profile
 ├── .bashrc

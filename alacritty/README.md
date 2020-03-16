@@ -1,7 +1,6 @@
 # alacritty
 
 ```tree
-
 .
 ├── .config
 │   └── alacritty

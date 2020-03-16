@@ -1,7 +1,6 @@
 # mac (Environment Specific)
 
 ```tree
-
 .
 ├── .config
 │   └── shell

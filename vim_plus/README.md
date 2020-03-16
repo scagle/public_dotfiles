@@ -1,8 +1,6 @@
 # vim (Contains Subpackage(s))
 
-
 ```tree
-
 .
 ├── .vim
 │   ├── .gitignore
@@ -18,10 +16,12 @@
 ├── .vimrc
 ├── README.md
 ├── nvim_sub
-│   └── .config
-│       └── nvim
-│           └── init.vim
+│   ├── .config
+│   │   └── nvim
+│   │       └── init.vim
+│   └── README.md
 └── vimwiki_sub
+    ├── README.md
     └── vimwiki
         ├── .gitignore
         ├── html
@@ -148,5 +148,5 @@
             │   └── 2019-12-19.wiki
             └── index.wiki
 
-23 directories, 120 files
+23 directories, 122 files
 ```

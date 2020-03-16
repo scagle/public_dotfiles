@@ -3,7 +3,12 @@ import re
 
 
 def get_name(file_path):
-    name = file_path.split("/")[1]
+    tokens = file_path.split("/")
+    if len(tokens) <= 2:
+        raise Exception("Error: This should never happen. What have you DONE!?")
+    name = tokens[len(tokens)-2]
+    print(file_path, name)
+
     title_match = re.search("^[A-Z]", name)
     plus_match = re.search("_plus_?", name)
     sub_match = re.search("_sub_?", name)
@@ -44,13 +49,12 @@ def update_file_tree(file_path, tree_text):
     lines = []
     with open(file_path, "r") as file_obj:
         text = file_obj.read()
-        head_pattern = re.compile("\`\`\`tree\n")
+        head_pattern = re.compile("\`\`\`tree")
         tail_pattern = re.compile("\`\`\`\n")
         head_match = head_pattern.search(text)
         found = False
         if head_match:
             tail_match = tail_pattern.search(text, head_match.end())
-            print(file_path, tail_match)
             if tail_match:
                 found = True
                 old_section = text[head_match.start():tail_match.end()]

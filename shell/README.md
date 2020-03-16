@@ -1,7 +1,6 @@
 # shell
 
 ```tree
-
 .
 ├── .config
 │   └── shell

@@ -1,7 +1,6 @@
 # dpkg (No-Stow)
 
 ```tree
-
 .
 ├── README.md
 └── packages.txt

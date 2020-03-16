@@ -1,7 +1,6 @@
 # tmux (Needs Initialization)
 
 ```tree
-
 .
 ├── .config
 │   ├── shell

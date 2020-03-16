@@ -1,7 +1,6 @@
 # homebrew (No-Stow)
 
 ```tree
-
 .
 ├── Brewfile
 └── README.md

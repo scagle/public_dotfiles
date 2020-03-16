@@ -1,10 +1,10 @@
-# scripts
+# nvim (Subpackage)
 
 ```tree
 .
 ├── .config
-│   └── shell
-│       └── scripts.rc
+│   └── nvim
+│       └── init.vim
 └── README.md
 
 2 directories, 2 files
