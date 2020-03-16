@@ -1,4 +1,0 @@
-* Find SSIDs / Discover access points
-{{{bash
-sudo iw dev wlp3s0 scan | less
-}}}

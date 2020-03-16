@@ -1,4 +1,0 @@
-= Understand These =
-    * RISC vs CISC Processors
-    * Basic knowledge of ARM, MIPS, AMD processors
-    * Von Neumann vs Harvard Architectures

@@ -1,9 +1,0 @@
-= Notes =
-    * Review
-        * [[Jan30]]
-    * Midterm2 Exam topics
-        * [[447examtopics]]
-
-= Resources =
-    * [[http://www.ti.com/lit/ds/symlink/tm4c123gh6pm.pdf|MC Datasheet]]
-    * [[http://users.ece.utexas.edu/~valvano/Volume1/tm4c123gh6pm.h|Header file]]

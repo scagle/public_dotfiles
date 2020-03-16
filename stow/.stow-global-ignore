@@ -3,6 +3,6 @@
 .gitignore
 .stow-local-ignore
 .*.example
-^/@.*
+.*_sub_*
 README.*
 initialize.sh

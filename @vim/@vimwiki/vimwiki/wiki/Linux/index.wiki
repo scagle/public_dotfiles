@@ -1,6 +1,0 @@
-= Index =
-    * General
-        * [[socat]]
-        * [[wpa_supplicant]]
-        * [[wifi]]
-    * Distro Specific

@@ -11,7 +11,7 @@ find_subpackages_up_down () {
       [ "$NEW_MATCHES" = "$MATCHES" ] && break
       for FILEPATH in $NEW_MATCHES
       do
-          if [[ "$(basename -- $FILEPATH)" == *'@'* ]]; then
+          if [[ "$(basename -- $FILEPATH)" == *'_sub'* ]]; then
               echo $FILEPATH
           fi
       done
@@ -24,6 +24,7 @@ stow_subpackages_down_up () {
     SUBPACKAGES=$(find_subpackages_up_down | tr ' ' '\n' | tac)
     for SUBPACKAGE in $SUBPACKAGES
     do
+	echo "$SUBPACKAGE"
         (cd $(dirname $SUBPACKAGE) && stow -D $(basename $SUBPACKAGE))
     done
 }
@@ -31,8 +32,5 @@ stow_subpackages_down_up () {
 # Unstow all subpackages bottom up to prevent aliens
 stow_subpackages_down_up
 
-# Unstow top level packages except stow/
-stow -D $(ls -d */ | grep --invert-match "@" | grep --invert-match "stow")
-
-# Unstow stow/
-stow -D stow 
+# Unstow top level packages and then stow/ if it passes
+stow -D $(ls -d */ | grep --invert-match "@" | grep --invert-match "stow") && stow -D stow

@@ -1,7 +1,0 @@
-= Cheatsheet stuff =
-    * Put that sick diagram representing
-    * Put Stability and Causality slide on cheat sheet!!!! (Lecture or chapter 4)
-        * "Recall:
-            * BIBO is when ....
-            * Existence of the DTFT implies that H(e^jw) existss
-            * 
