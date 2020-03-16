@@ -4,7 +4,8 @@
 
 .
 ├── .bash_profile
-└── .bashrc
+├── .bashrc
+└── README.md
 
-0 directories, 2 files
+0 directories, 3 files
 ```

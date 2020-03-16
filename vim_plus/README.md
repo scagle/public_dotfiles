@@ -16,6 +16,7 @@
 │       ├── settings.vim
 │       └── temporary.vim
 ├── .vimrc
+├── README.md
 ├── nvim_sub
 │   └── .config
 │       └── nvim
@@ -147,5 +148,5 @@
             │   └── 2019-12-19.wiki
             └── index.wiki
 
-23 directories, 119 files
+23 directories, 120 files
 ```

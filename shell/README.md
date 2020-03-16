@@ -3,10 +3,11 @@
 ```tree
 
 .
-└── .config
-    └── shell
-        ├── extra.rc
-        └── work.rc
+├── .config
+│   └── shell
+│       ├── extra.rc
+│       └── work.rc
+└── README.md
 
-2 directories, 2 files
+2 directories, 3 files
 ```

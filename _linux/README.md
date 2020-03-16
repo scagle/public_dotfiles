@@ -3,9 +3,10 @@
 ```tree
 
 .
-└── .config
-    └── shell
-        └── linux.rc
+├── .config
+│   └── shell
+│       └── linux.rc
+└── README.md
 
-2 directories, 1 file
+2 directories, 2 files
 ```

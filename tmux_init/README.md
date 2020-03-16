@@ -8,7 +8,8 @@
 │   │   └── tmux.rc
 │   └── tmux
 │       └── tmux.conf
+├── README.md
 └── initialize.sh
 
-3 directories, 3 files
+3 directories, 4 files
 ```

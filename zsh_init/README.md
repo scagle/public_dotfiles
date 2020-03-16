@@ -5,7 +5,8 @@
 .
 ├── .p10k.zsh
 ├── .zshrc
+├── README.md
 └── initialize.sh
 
-0 directories, 3 files
+0 directories, 4 files
 ```

@@ -6,7 +6,8 @@
 ├── .config
 │   └── rg
 │       └── .ripgreprc
-└── .ignore
+├── .ignore
+└── README.md
 
-2 directories, 2 files
+2 directories, 3 files
 ```

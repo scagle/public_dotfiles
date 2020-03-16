@@ -3,10 +3,11 @@
 ```tree
 
 .
-└── .config
-    └── Code
-        └── User
-            └── settings.json
+├── .config
+│   └── Code
+│       └── User
+│           └── settings.json
+└── README.md
 
-3 directories, 1 file
+3 directories, 2 files
 ```

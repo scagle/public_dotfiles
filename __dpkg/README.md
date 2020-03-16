@@ -3,7 +3,8 @@
 ```tree
 
 .
+├── README.md
 └── packages.txt
 
-0 directories, 1 file
+0 directories, 2 files
 ```

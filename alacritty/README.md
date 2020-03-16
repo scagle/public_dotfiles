@@ -3,9 +3,10 @@
 ```tree
 
 .
-└── .config
-    └── alacritty
-        └── alacritty.yml
+├── .config
+│   └── alacritty
+│       └── alacritty.yml
+└── README.md
 
-2 directories, 1 file
+2 directories, 2 files
 ```

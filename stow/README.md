@@ -4,7 +4,8 @@
 
 .
 ├── .stow-global-ignore
-└── .stowrc
+├── .stowrc
+└── README.md
 
-0 directories, 2 files
+0 directories, 3 files
 ```
