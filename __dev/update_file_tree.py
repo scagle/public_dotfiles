@@ -10,11 +10,13 @@ def get_name(file_path):
     print(file_path, name)
 
     title_match = re.search("^[A-Z]", name)
-    plus_match = re.search("_plus_?", name)
-    sub_match = re.search("_sub_?", name)
-    init_match = re.search("_init_?", name)
-    env_match = re.search("^_[A-Za-z0-9]+", name)
-    no_stow_match = re.search("^__[A-Za-z0-9]+", name)
+
+    lower_name = name.lower()
+    plus_match = re.search("_plus_?", lower_name)
+    sub_match = re.search("_sub_?", lower_name)
+    init_match = re.search("_init_?", lower_name)
+    env_match = re.search("^_[A-Za-z0-9]+", lower_name)
+    no_stow_match = re.search("^__[A-Za-z0-9]+", lower_name)
 
     if title_match is not None:
         name = name + " (Root)"

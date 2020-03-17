@@ -1,0 +1,26 @@
+# vim: foldmethod=marker syntax=sh
+#!/bin/bash
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# Terminal prompt 
+PS1='\[[01;31m\][\u@\h \W]\[[00m\]\$ '
+PS2='> '
+
+# Helps with duplicated commands when "up-arrowing"
+HISTCONTROL=ignoreboth
+
+# Tabbing multiple times shows results then starts completing results
+bind "TAB:menu-complete"
+bind "set show-all-if-ambiguous on"
+bind "set menu-complete-display-prefix on"
+
+# Source all generic shell configurations 
+if [[ -d "$HOME/.config/shell/" ]]; then
+    CONFIGS="$HOME/.config/shell/*.rc"
+    for CONFIG in $CONFIGS
+    do
+        source $CONFIG
+    done
+fi

@@ -2,7 +2,8 @@
 .git
 .gitignore
 .stow-local-ignore
-.*.example
 .*_sub_*
+.*_Sub_*
+.*.local
 README.*
 initialize.sh

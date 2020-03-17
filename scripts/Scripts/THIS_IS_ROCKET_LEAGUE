@@ -1,0 +1,51 @@
+#!/bin/bash
+# Linux Notes:
+#  * For DualShock 4 Controllers to work with linux steam, you might 
+#    not need ds4drv, I think just the "steam-devices" package is required:
+#    https://askubuntu.com/questions/1027212/ps4-controller-is-not-recognised-by-steam-18-04
+#  * In my case I had to go into Steam's Big Picture Mode and manually set controller 
+#    configuration to "Forced Off", because it conflicted with kernel's DualShock4 module
+
+ROCKET_LEAGUE_PID=$(pidof "RocketLeague")
+COMPTON_CONFIG=~/.config/compton.conf
+
+if [ -z $ROCKET_LEAGUE_PID ] 
+then
+    echo "Couldn't Find Rocket League!"
+
+    # Change cpu governors to powersaving
+    sudo cpupower frequency-set -g powersave
+    echo "Turned CPU scheduling governors to powersave!"
+
+    # Start Compton back up as RocketLeague is no longer playing
+    if [ -f  $COMPTON_CONFIG   ]; then 
+        compton -b --config ${COMPTON_CONFIG}
+        echo "Started Compton Compositor!"
+    fi
+else
+    echo "Found Rocket League!"
+
+    # Change cpu governors to performance
+    # WARNING: make sure you install heat management packages IE: (AUR) thermald
+    sudo cpupower frequency-set -g performance
+    echo "Changed CPU scheduling governors to performance!"
+
+    # Change scheduling policy and priority of "RocketLeague" process
+    # -b = change pid to SCHED_BATCH
+    # -p = change pid priority
+    chrt -b -p 0 $ROCKET_LEAGUE_PID
+    echo "Changed Scheduling Policy of RocketLeague to SCHED_BATCH!"
+
+    # Change "niceness" of "RocketLeague" process [-20 to 19]
+    # (negative niceness requires sudo, because it will be GREEDY)
+    # -4 used since ArchWiki says so: https://wiki.archlinux.org/index.php/Gaming
+    sudo renice -n -4 $ROCKET_LEAGUE_PID
+    echo "Upgraded Rocket League Priority!"
+
+    # Kill any Compton Compositor process, as it's taking up valuable resources
+    if [ -f  $COMPTON_CONFIG   ]; then 
+        pkill "compton"
+        echo "Killed Compton Compositor!"
+    fi 
+fi
+

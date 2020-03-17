@@ -1,0 +1,4 @@
+# vim: foldmethod=marker syntax=sh
+#!/bin/bash
+
+# Work related functions and aliases

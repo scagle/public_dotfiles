@@ -1,3 +1,4 @@
+# vim: foldmethod=marker syntax=sh
 #!/bin/bash
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
