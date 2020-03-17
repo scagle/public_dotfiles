@@ -22,20 +22,8 @@
 │   └── README.md
 └── vimwiki_sub
     ├── README.md
-    ├── vimwiki
-    │   ├── html
-    │   │   ├── .gitignore
-    │   │   └── index.html.local
-    │   └── wiki
-    │       ├── .gitignore
-    │       └── index.wiki.local
-    └── workwiki
-        ├── html
-        │   ├── .gitignore
-        │   └── index.html.local
-        └── wiki
-            ├── .gitignore
-            └── index.wiki.local
+    ├── vimwiki.dir.local
+    └── workwiki.dir.local
 
-12 directories, 22 files
+6 directories, 16 files
 ```

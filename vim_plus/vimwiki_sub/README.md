@@ -3,24 +3,12 @@
 ```tree
 .
 ├── README.md
-├── vimwiki
-│   ├── html
-│   │   ├── .gitignore
-│   │   └── index.html.local
-│   └── wiki
-│       ├── .gitignore
-│       └── index.wiki.local
-└── workwiki
-    ├── html
-    │   ├── .gitignore
-    │   └── index.html.local
-    └── wiki
-        ├── .gitignore
-        └── index.wiki.local
+├── vimwiki.dir.local
+└── workwiki.dir.local
 
-6 directories, 9 files
+0 directories, 3 files
 ```
 
 ## Note 
-- ✏ **`vimwiki`**: secret personal wiki pages made with the [`vimwiki`](https://github.com/vimwiki/vimwiki) plugin
-- ✏ **`workwiki`**: secret work wiki pages made with the [`vimwiki`](https://github.com/vimwiki/vimwiki) plugin
+- ✏ **`vimwiki.dir.local`**: secret personal wiki pages made with the [`vimwiki`](https://github.com/vimwiki/vimwiki) plugin
+- ✏ **`workwiki.dir.local`**: secret work wiki pages made with the [`vimwiki`](https://github.com/vimwiki/vimwiki) plugin
