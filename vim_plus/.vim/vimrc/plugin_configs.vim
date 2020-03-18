@@ -39,7 +39,10 @@ endif
 if has_key(plugs, "vimwiki")
     augroup VimWiki
         autocmd!
-        let g:vimwiki_list = [{'path':'~/vimwiki/wiki', 'path_html':'~/vimwiki/html/'}]
+        let g:vimwiki_list = [
+            \ {'path':'~/vimwiki/wiki', 'path_html':'~/vimwiki/html/'},
+            \ {'path':'~/workwiki/wiki', 'path_html':'~/workwiki/html/'},
+        \ ]
 
         " Disable Table Mappings: (conflicts with Deoplete/Ultisnips)
         let g:vimwiki_table_mappings = 0
