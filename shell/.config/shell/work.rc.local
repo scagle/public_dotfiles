@@ -2,3 +2,5 @@
 #!/bin/bash
 
 # Work related functions and aliases
+alias foo=bar
+export var=""
