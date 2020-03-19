@@ -13,6 +13,6 @@ if [[ $1 == "mac_common" ]]; then
 fi
 
 if [[ $1 == "linux_common" ]]; then
-    stow _mac alacritty bash_init rg scripts shell stow tmux_init vim_plus zsh_init
+    stow _linux alacritty bash_init rg scripts shell stow tmux_init vim_plus zsh_init
     (cd vim_plus && stow nvim_sub vimwiki_sub)
 fi
