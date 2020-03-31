@@ -1,0 +1,19 @@
+# i3 (Subpackage)
+
+```tree
+.
+├── .config
+│   ├── i3
+│   │   ├── config
+│   │   ├── exit_menu
+│   │   ├── my_xrandr
+│   │   ├── rangerwrapper
+│   │   └── sample_ranger.desktop
+│   ├── i3status
+│   │   └── config
+│   └── shell
+│       └── i3.rc
+└── README.md
+
+4 directories, 8 files
+```

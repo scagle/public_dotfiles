@@ -7,12 +7,27 @@ fi
 echo "Linking stow configurations"
 stow --verbose -t ~ stow/
 
-if [[ $1 == "mac_common" ]]; then
-    stow _mac alacritty bash_init rg scripts shell stow tmux_init vim_plus zsh_init
+common() {
+    stow bash_init rg scripts shell stow tmux_init vim_plus zsh_init
     (cd vim_plus && stow nvim_sub vimwiki_sub)
-fi
+}
 
-if [[ $1 == "linux_common" ]]; then
-    stow _linux alacritty bash_init rg scripts shell stow tmux_init vim_plus zsh_init
-    (cd vim_plus && stow nvim_sub vimwiki_sub)
-fi
+mac_common() {
+    common
+    stow _mac
+}
+
+linux_common() {
+    common
+    stow _linux_plus
+}
+
+linux_i3() {
+    linux_common
+    (cd _linux_plus && stow i3_sub)
+}
+
+[[ $1 == "common" ]] && common
+[[ $1 == "mac_common" ]] && mac_common
+[[ $1 == "linux_common" ]] && linux_common
+[[ $1 == "linux_i3" ]] && linux_i3

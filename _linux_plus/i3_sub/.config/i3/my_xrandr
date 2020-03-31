@@ -1,0 +1,11 @@
+#!/bin/bash
+ARG=$1
+xrandr --auto
+if [[ $ARG == "left" ]]; then
+    xrandr --output VGA1 --left-of LVDS1
+elif [[ $ARG == "right" ]]; then
+    xrandr --output VGA1 --right-of LVDS1
+else 
+    echo "Unknown option $1"
+fi    
+feh --bg-fill "/usr/share/pixmaps/red_arch.png"
