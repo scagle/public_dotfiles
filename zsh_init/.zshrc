@@ -1,4 +1,14 @@
+# vim: foldmethod=marker
+# {{{ General Settings
+# Set a larger history
+HISTFILE=~/.zsh_history
+HISTSIZE=999999999
+SAVEHIST=$HISTSIZE
+# }}}
+
 # {{{ Options
+setopt HIST_IGNORE_SPACE
+setopt appendhistory
 setopt promptsubst
 # }}}
 
