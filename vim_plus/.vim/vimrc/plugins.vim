@@ -37,6 +37,7 @@ Plug 'will133/vim-dirdiff'                      " Vimdiff on directories
 Plug 'tpope/vim-repeat'                         " Repeat other plugin maps with '.'
 Plug 'Konfekt/FastFold'                         " Quicker folds (computationally)
 Plug 'tmhedberg/SimpylFold'                     " Better python folding
+Plug 'chrisbra/vim-diff-enhanced'               " Better diff options (sometimes)
 
 " Github markdown viewer (README.md)
 Plug 'iamcco/markdown-preview.nvim', {'do': { -> mkdp#util#install() } } 
