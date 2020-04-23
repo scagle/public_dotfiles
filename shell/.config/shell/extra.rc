@@ -38,7 +38,7 @@ if [[ ! -z "${FLAVOR}" && -d "${HOME}/.config" && -d "${HOME}/.config/flavors" ]
 fi;
     
 # Ripgrep
-if [[ -x /bin/rg || -x /usr/local/bin/rg ]]; then
+if [[ -x /bin/rg || -x /usr/local/bin/rg || -x /snap/bin/rg ]]; then
     export RIPGREP_CONFIG_PATH=$HOME/.config/rg/.ripgreprc
     alias rgf="rg --files | rg"
 fi

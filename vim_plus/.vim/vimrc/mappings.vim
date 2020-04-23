@@ -5,9 +5,9 @@ augroup GeneralMappings
     autocmd!
 
     " Quickly Editing Common Files:
-    nnoremap <silent> <leader>vv  :tabnew $ACTUALVIMRC<cr>
-    nnoremap <silent> <leader>vt  :tabnew $HOME/.tmux.conf<cr>
-    nnoremap <silent> <leader>vb  :tabnew $HOME/.bashrc<cr>
+    nnoremap <silent> <leader>vv :tabnew $ACTUALVIMRC<cr>
+    nnoremap <silent> <leader>vt :tabnew $HOME/.tmux.conf<cr>
+    nnoremap <silent> <leader>vb :tabnew $HOME/.bashrc<cr>
     nnoremap <leader>svv :source $MYVIMRC<cr>
     nnoremap <leader>svt :!tmux source $HOME/.tmux.conf<cr>
     nnoremap <leader>svb :!source $HOME/.bashrc<cr>
@@ -56,6 +56,16 @@ augroup GeneralMappings
     inoremap kk <esc>
     inoremap jk <esc>
     inoremap kj <esc>
+
+    " Disable ALL F1 Helps: (since it's annoying when using Mac touchbar)
+    nmap <F1> <esc>
+    imap <F1> <esc>
+    nmap <M-F1> <esc>
+    imap <M-F1> <esc>
+    nmap <S-F1> <esc>
+    imap <S-F1> <esc>
+    nmap <M-S-F1> <esc>
+    imap <M-S-F1> <esc>
 
     " Tabbed File Helpers:
     function! AlternateTabSize()

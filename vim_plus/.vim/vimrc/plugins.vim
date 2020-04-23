@@ -1,3 +1,4 @@
+" vim: ft=vim:foldmethod=marker
 " Configurations for 'Plug' Plugin Manager
 
 " Install Plug.vim if not installed
@@ -10,7 +11,7 @@ endif
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 
-" Important (Can't live without)
+" {{{ Important (Can't live without)
 Plug 'terryma/vim-multiple-cursors' " Find/Replace/Manipulate
 Plug 'scrooloose/nerdtree'          " Navigate files with filetree
 Plug 'godlygeek/tabular'            " Align text in many ways
@@ -21,8 +22,9 @@ if has('python3') && has('nvim')
     Plug 'Shougo/deoplete.nvim'     " Useful auto complete
     Plug 'roxma/nvim-yarp'          " NeoVim plugin helper
 endif
+" }}}
 
-" Experimental (Rarely Use / Trying Out)
+" {{{ Experimental (Rarely Use / Trying Out)
 "Plug 'SirVer/ultisnips'                         " Snippet  
 Plug 'honza/vim-snippets'                       " Snippets for Ultisnips
 Plug 'junegunn/fzf', {'do': './install --bin --all'}  " Fuzzy file search for terminal
@@ -44,11 +46,13 @@ Plug 'iamcco/markdown-preview.nvim', {'do': { -> mkdp#util#install() } }
 "Plug 'vim-pandoc/vim-pandoc'
 "Plug 'vim-pandoc/vim-pandoc-syntax'
 "Plug 'lervag/vimtex'                            " Vim Latex 
+" }}}
 
-" Aesthetics
+" {{{ Aesthetics
 Plug 'vim-airline/vim-airline'        " For sleek airline bar at bottom
 Plug 'vim-airline/vim-airline-themes' " For more themes with airline bar
 Plug 'scagle/vim-tba'                 " TramelBlaze Assembly syntax highlighting
 Plug 'cormacrelf/vim-colors-github'   " White background colorscheme works well with TOhtml
+" }}}
 
 call plug#end()
