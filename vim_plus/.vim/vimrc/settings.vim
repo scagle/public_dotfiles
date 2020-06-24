@@ -1,7 +1,6 @@
 " Generic Settings
 syntax on                     " Enable Syntax Highlighting
 
-set clipboard+=unnamedplus    " Use System Clipboard
 set number                    " Set line numbers
 set noswapfile                " Disable pesky swap files
 set tabstop=4                 " show existing tab with 4 spaces width

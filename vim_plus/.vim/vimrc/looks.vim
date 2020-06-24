@@ -23,10 +23,6 @@ augroup Colorscheme
     highlight PmenuSel  ctermbg=yellow ctermfg=black 
     highlight PmenuSbar ctermbg=black ctermfg=yellow
 
-    " Color the wrap column in C++ / C projects (I like 100 characters)
-    highlight ColorColumn ctermbg=darkred ctermfg=white
-    autocmd BufRead,BufNewFile *.cpp,*.c,*.hpp,*.h silent set colorcolumn=101
-
     autocmd BufRead,BufNewFile *.bashrc setlocal syntax=sh
 
 augroup end

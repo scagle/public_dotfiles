@@ -55,3 +55,4 @@ zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
     zsh-users/zsh-completions
 # }}}
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

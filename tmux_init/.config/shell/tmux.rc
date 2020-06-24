@@ -1,3 +1,4 @@
+# vim: foldmethod=marker syntax=sh
 #!/bin/bash
 
 if [[ -f "$HOME/.config/tmux/tmux.conf" ]]; then

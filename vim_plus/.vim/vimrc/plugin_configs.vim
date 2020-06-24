@@ -120,6 +120,15 @@ if has_key(plugs, "fzf") && has_key(plugs, "fzf.vim")
 endif
 " }}}
 
+" RG: Rip Grep {{{
+if has_key(plugs, "vim-ripgrep")
+    augroup RG 
+        autocmd!
+        nnoremap <leader>g :Rg<cr>
+    augroup end
+endif
+" }}}
+
 " Vimtex: Latex for Vim {{{
 if has_key(plugs, "vimtex")
     augroup Vimtex
@@ -195,6 +204,16 @@ if has_key(plugs, "vim-vim-wiki")
         nnoremap <leader>go :Git checkout<Space>
         nnoremap <leader>gps :Dispatch! git push<CR>
         nnoremap <leader>gpl :Dispatch! git pull<CR>
+    augroup end
+endif
+" }}}
+
+" {{{ Sideways: Move arguments around horizontally
+if has_key(plugs, "vim-sideways")
+    augroup Vim-Sideways
+        autocmd!
+        nnoremap <silent> <leader>ch :SidewaysLeft
+        nnoremap <silent> <leader>cl :SidewaysRight
     augroup end
 endif
 " }}}
