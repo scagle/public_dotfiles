@@ -12,6 +12,12 @@ setopt appendhistory
 setopt promptsubst
 # }}}
 
+# {{{ Bindings
+bindkey "^P" up-line-or-search
+bindkey "^N" down-line-or-search
+bindkey -e
+# }}}
+
 # {{{ Sourcing External Configurations
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

@@ -124,7 +124,7 @@ endif
 if has_key(plugs, "vim-ripgrep")
     augroup RG 
         autocmd!
-        nnoremap <leader>g :Rg<cr>
+        nnoremap <leader>rg :Rg<cr>
     augroup end
 endif
 " }}}
@@ -184,7 +184,7 @@ endif
 " }}}
 
 " Vim_Fugitive: A Git wrapper so awesome, it should be illegal {{{
-if has_key(plugs, "vim-vim-wiki")
+if has_key(plugs, "vim-fugitive")
     augroup Vim-Fugitive
         autocmd!
         " fugitive git bindings

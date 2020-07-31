@@ -2,6 +2,7 @@
 #!/bin/bash
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
+    export PATH=$PATH:~/.local/bin
     alias ls='ls --color=auto' 
     [[ -d "/snap/bin" ]] && export PATH=/snap/bin:$PATH
 fi

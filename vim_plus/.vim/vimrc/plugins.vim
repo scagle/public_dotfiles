@@ -12,8 +12,8 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " {{{ Important (Can't live without)
-Plug 'terryma/vim-multiple-cursors' " Find/Replace/Manipulate
-" Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+" Plug 'terryma/vim-multiple-cursors' " Find/Replace/Manipulate
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'scrooloose/nerdtree'          " Navigate files with filetree
 Plug 'godlygeek/tabular'            " Align text in many ways
 Plug 'tpope/vim-surround'           " Trying to get used to it
@@ -40,7 +40,7 @@ Plug 'will133/vim-dirdiff'                      " Vimdiff on directories
 Plug 'tpope/vim-repeat'                         " Repeat other plugin maps with '.'
 Plug 'Konfekt/FastFold'                         " Quicker folds (computationally)
 Plug 'tmhedberg/SimpylFold'                     " Better python folding
-Plug 'chrisbra/vim-diff-enhanced'               " Better diff options (sometimes)
+"Plug 'chrisbra/vim-diff-enhanced'               " Better diff options (sometimes)
 Plug 'AndrewRadev/sideways.vim'                 " Moving Parameters / Arguments around
 
 " Github markdown viewer (README.md)

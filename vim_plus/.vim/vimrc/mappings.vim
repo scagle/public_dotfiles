@@ -24,6 +24,8 @@ augroup GeneralMappings
     nnoremap <silent> <leader>M :set foldmethod=marker<cr>zX<cr>
     nnoremap <silent> <leader>I :set foldmethod=indent<cr>zX<cr>
     nnoremap <silent> <leader>S :set foldmethod=syntax<cr>zX<cr>
+    " This one is used for CMake files with lots of macros
+    nnoremap <silent> <leader>C :set foldmarker=macro(,endmacro(<cr>:set foldmethod=marker<cr>zX<cr>
 
     " Toggle Symbols:
     " Shows all symbols in the file, such as pesky tabs and trailing whitespace
@@ -71,6 +73,10 @@ augroup GeneralMappings
     imap <S-F1> <esc>
     nmap <M-S-F1> <esc>
     imap <M-S-F1> <esc>
+
+    " Vimdiff helpers
+    nnoremap <silent> <leader>sd :call AlternateSuperDiff(1)<cr>
+    nnoremap <silent> <leader>du :diffupdate<cr>
 
     " Disable Ex Mode: (I hit 'Q' at least 10 times a day by accident)
     nnoremap Q <nop>

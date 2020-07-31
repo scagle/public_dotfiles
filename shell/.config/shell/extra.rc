@@ -3,6 +3,16 @@
 
 # General Configurations 
 
+# {{{ Functions
+diffe () {
+    # git Diff Edit
+    # Args
+    #   $1  git-rev-parse expression (IE: HEAD~3)
+    #   $2+ nvim arguments
+    git diff $1 --name-only | xargs nvim "${@:2}"
+}
+# }}}
+
 # {{{ Exports
 
 # Editor Settings
@@ -13,7 +23,6 @@ export EDITOR="$VISUAL"
 export ACTUALVIMRC=$HOME/.vimrc
 
 # }}}
-
 
 # {{{ Aliases
 
