@@ -10,7 +10,7 @@ symlink it previously injected. For more details see [Stow](https://www.gnu.org/
 ## Private Dotfiles
 What you don't see in this repo is that `public_dotfiles` is actually a `git submodule` within my `private_dotfiles` repository that is hidden to the public. My `private_dotfiles` repo actually stows all of its packages into `public_dotfiles` before `public_dotfiles` stows its packages into the file-system. So to continue with the analogy, a syringe with a super-secret concoction injects its contents into that of ANOTHER syringe, which injects its mixed contents into the file-system. Complicated much? Maybe, but I think it's cool! (Works fine as long as all the syringes are "uninjected" back in the right order)
 
-<p align="center"> <img src="Dotfiles_Analogy.png" width="350"> </p>
+<p align="center"> <img src="__resources/Dotfiles_Analogy.png" width="350"> </p>
 
 Based on [Kraymer's dotfiles](https://github.com/Kraymer/F-dotfiles), which supplies a nifty way of formatting dotfiles in a way that facilitates readability.
 
