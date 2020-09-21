@@ -12,6 +12,3 @@ set incsearch                 " Incremental search that shows partial matches
 set lazyredraw                " Prevent redrawing screen during macros/etc for speed up
 set foldopen+=jump            " Open folds if jumping to a line within them
 set undolevels=5000           " Set maximum undo levels
-
-let mapleader = ","           " Change MapLeader from '\' to ',' for easier command execution
-let maplocalleader = "\\"     " Keep LocalMapLeader the same ( Rarely use )

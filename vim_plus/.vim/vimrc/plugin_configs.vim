@@ -1,14 +1,15 @@
-" vim: ft=vim:foldmethod=marker
+" vim: ft=vim foldmethod=marker
 
 " Configurations for installed plugins
 
-" Quick Help:
+" Vim Quick Help:
 "     Folds:
 "         zo     open fold
 "         zc     close fold
 "         zj/zk  jump between folds
+"         zn/zm  open/close all folds
 
-" Vim_Airline: Status Bar {{{
+" Vim_Airline:  Status Bar {{{
 if has_key(plugs, "vim-airline")
     augroup VimAirLine
         autocmd!
@@ -24,7 +25,7 @@ if has_key(plugs, "vim-airline")
 endif
 " }}}
 
-" NERDTree: File System Explorer {{{
+" NERDTree:     File System Explorer {{{
 if has_key(plugs, "nerdtree")
     augroup NERDTree
         autocmd!
@@ -35,7 +36,7 @@ if has_key(plugs, "nerdtree")
 endif
 " }}}
 
-" VimWiki: Personal Wiki {{{
+" VimWiki:      Personal Wiki {{{
 if has_key(plugs, "vimwiki")
     augroup VimWiki
         autocmd!
@@ -53,7 +54,7 @@ if has_key(plugs, "vimwiki")
 endif
 " }}}
 
-" Ultisnips: Snippet Expander {{{
+" Ultisnips:    Snippet Expander {{{
 if has_key(plugs, "vim-ultisnips")
     augroup UltiSnips
         autocmd!
@@ -72,7 +73,7 @@ if has_key(plugs, "vim-ultisnips")
 endif
 " }}}
 
-" FZF: Fuzzy File Finder {{{
+" FZF:          Fuzzy File Finder {{{
 if has_key(plugs, "fzf") && has_key(plugs, "fzf.vim")
     augroup FZF
         autocmd!
@@ -120,7 +121,7 @@ if has_key(plugs, "fzf") && has_key(plugs, "fzf.vim")
 endif
 " }}}
 
-" RG: Rip Grep {{{
+" RG:           Rip Grep {{{
 if has_key(plugs, "vim-ripgrep")
     augroup RG 
         autocmd!
@@ -129,7 +130,7 @@ if has_key(plugs, "vim-ripgrep")
 endif
 " }}}
 
-" Vimtex: Latex for Vim {{{
+" Vimtex:       Latex for Vim {{{
 if has_key(plugs, "vimtex")
     augroup Vimtex
         autocmd!
@@ -139,7 +140,7 @@ if has_key(plugs, "vimtex")
 endif
 " }}}
 
-" Deoplete: Lightweight Autocompletion for Neovim {{{
+" Deoplete:     Lightweight Autocompletion for Neovim {{{
 if has_key(plugs, "nvim-yarp")
     if has_key(plugs, "deoplete.nvim")
         augroup Deoplete 
@@ -163,7 +164,7 @@ if has_key(plugs, "nvim-yarp")
 endif
 " }}}
 
-" QuickScope: Left - Right Movement Helper {{{
+" QuickScope:   Left - Right Movement Helper {{{
 if has_key(plugs, "vim-quick-scope")
     augroup Quick-Scope
         autocmd!
@@ -173,7 +174,7 @@ if has_key(plugs, "vim-quick-scope")
 endif
 " }}}
 
-" Vim_Pandoc: Pandoc Integration and Utilities for Vim {{{
+" Vim_Pandoc:   Pandoc Integration and Utilities for Vim {{{
 if has_key(plugs, "vim-vim-wiki")
     augroup Vim-Pandoc
         autocmd!
@@ -208,7 +209,7 @@ if has_key(plugs, "vim-fugitive")
 endif
 " }}}
 
-" {{{ Sideways: Move arguments around horizontally
+" Sideways:     Move arguments around horizontally {{{
 if has_key(plugs, "vim-sideways")
     augroup Vim-Sideways
         autocmd!

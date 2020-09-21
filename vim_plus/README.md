@@ -5,6 +5,11 @@
 ├── .vim
 │   ├── .gitignore
 │   └── vimrc
+│       ├── README.md
+│       ├── external
+│       │   └── .gitignore
+│       ├── external_plugins
+│       │   └── .gitignore
 │       ├── humor.vim
 │       ├── looks.vim
 │       ├── mappings.vim
@@ -12,7 +17,7 @@
 │       ├── plugin_configs.vim
 │       ├── plugins.vim
 │       ├── settings.vim
-│       └── temporary.vim
+│       └── vim_plug_install.vim
 ├── .vimrc
 ├── README.md
 ├── nvim_sub
@@ -25,5 +30,5 @@
     ├── vimwiki.dir.local
     └── workwiki.dir.local
 
-6 directories, 16 files
+8 directories, 19 files
 ```

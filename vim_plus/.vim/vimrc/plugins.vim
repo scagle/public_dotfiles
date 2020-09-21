@@ -1,15 +1,5 @@
-" vim: ft=vim:foldmethod=marker
-" Configurations for 'Plug' Plugin Manager
-
-" Install Plug.vim if not installed
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-endif
-
-" Specify a directory for plugins
-call plug#begin('~/.vim/plugged')
+" vim: ft=vim foldmethod=marker
+" Plugin Definitions
 
 " {{{ Important (Can't live without)
 " Plug 'terryma/vim-multiple-cursors' " Find/Replace/Manipulate
@@ -20,7 +10,6 @@ Plug 'tpope/vim-surround'           " Trying to get used to it
 Plug 'vimwiki/vimwiki'              " For notetaking/general documenting
 Plug 'junegunn/fzf', {'do': './install --bin --all'}  " Fuzzy file search for terminal
 Plug 'junegunn/fzf.vim'                         " Fuzzy file search for vim
-Plug 'jremmen/vim-ripgrep'                      " Speeds up fzf
 Plug 'christoomey/vim-tmux-navigator'           " Better tmux - vim navigation 
 
 if has('python3') && has('nvim')
@@ -30,6 +19,7 @@ endif
 " }}}
 
 " {{{ Experimental (Rarely Use / Trying Out)
+Plug 'jremmen/vim-ripgrep'                      " Speeds up fzf TODO This guy isn't that good. Phase him out
 "Plug 'SirVer/ultisnips'                         " Snippet  
 Plug 'honza/vim-snippets'                       " Snippets for Ultisnips
 Plug 'tpope/vim-fugitive'                       " Better Git wrapper
@@ -57,5 +47,3 @@ Plug 'vim-airline/vim-airline-themes' " For more themes with airline bar
 Plug 'scagle/vim-tba'                 " TramelBlaze Assembly syntax highlighting
 Plug 'cormacrelf/vim-colors-github'   " White background colorscheme works well with TOhtml
 " }}}
-
-call plug#end()

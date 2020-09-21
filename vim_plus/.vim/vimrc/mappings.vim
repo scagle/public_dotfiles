@@ -38,7 +38,7 @@ augroup GeneralMappings
     " Toggle Word Wrap:
     nnoremap <silent> <leader>W :set wrap!<cr>
 
-    " Toggle Wrap Scan: (searches wrapping)
+    " Toggle Wrap Scan: (whether searches wrap around file boundary or not)
     nnoremap <leader><leader>w :set wrapscan!<cr>
 
     " Toggle Cursor Column:
@@ -49,7 +49,7 @@ augroup GeneralMappings
 
     " Quickly Move Between Files: 
     nnoremap <silent> <BS> <C-^>
-    " Note: Favoring FZF over :ls currently
+    " Note: Currently favoring FZF over :ls (defined in 'plugin_configs.vim')
     " nnoremap <silent> <leader>b  :ls<CR>:b<Space><Space><BS>
     " nnoremap <silent> <leader>t  :ls<CR>:tabnew<Space><Space><BS>
 
@@ -58,13 +58,13 @@ augroup GeneralMappings
     nnoremap <silent> <leader>m :bn<cr>
 
     " Alternative Escapes: (saves my pinkie from pressing <esc>)
-    " Blame this person not me: http://learnvimscriptthehardway.stevelosh.com/chapters/10.html
+    " Blame Steve Losh not me: http://learnvimscriptthehardway.stevelosh.com/chapters/10.html
     inoremap jj <esc>
     inoremap kk <esc>
     inoremap jk <esc>
     inoremap kj <esc>
 
-    " Disable ALL F1 Helps: (since it's annoying when using Mac touchbar)
+    " Disable ALL F1 Helps: (since it's very annoying when using Macbook touchbars)
     nmap <F1> <esc>
     imap <F1> <esc>
     nmap <M-F1> <esc>
@@ -106,6 +106,9 @@ augroup GeneralMappings
     " Remap Common Ex Mistakes:
     command! W w
     command! Q q
+
+    " Alternate Escape Command Mode:
+    cmap jk <esc>
 
 augroup end
 " }}}

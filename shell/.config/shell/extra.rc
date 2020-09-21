@@ -49,6 +49,10 @@ if [[ -f /usr/bin/vim  || -f /usr/local/bin/vim  ]]; then
     alias vi='vim'   # Prefer either Neovim or Vim over Vi
 fi
 
+if [[ -f /usr/bin/vim  || -f /usr/local/bin/vim  ]]; then
+    alias mvim="vim --cmd 'let g:minimal_config=1'"   # Prefer either Neovim or Vim over Vi
+fi
+
 # Source Current Flavor's bashrc ($FLAVOR set in /etc/environment as "FLAVOR=foo")
 # Flavors defined in $HOME/.config/flavors (also see https://github.com/scagle/dotfiles)
 if [[ ! -z "${FLAVOR}" && -d "${HOME}/.config" && -d "${HOME}/.config/flavors" ]]; then
