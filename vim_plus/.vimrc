@@ -14,10 +14,10 @@
 " Functions: {{{
 " Source External Configurations Matching A Glob Pattern: {{{
 function GlobSourceFiles(glob_pattern)
-    let s:source_files = glob(a:glob_pattern)
-    if s:source_files
-        for source_file in s:source_files
-            source source_file
+    let s:source_files = glob(a:glob_pattern, 1, 1)
+    if !empty(s:source_files)
+        for s:source_file in s:source_files
+            execute "source " . s:source_file
         endfor
     endif
 endfunction
